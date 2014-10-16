@@ -210,8 +210,7 @@ public class Ant extends GPProblem implements SimpleProblemForm
             orientation = O_RIGHT;
 
             for(moves=0;moves<maxMoves && sum<food; )
-                ((GPIndividual)ind).trees[0].child.eval(
-                    state,threadnum,input,stack,((GPIndividual)ind),this);
+                ((GPIndividual)ind).trees[0].child.eval(state,threadnum,input,stack,((GPIndividual)ind),this);
                 
             // the fitness better be KozaFitness!
             KozaFitness f = ((KozaFitness)ind.fitness);

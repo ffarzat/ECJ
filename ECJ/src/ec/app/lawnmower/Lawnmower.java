@@ -142,8 +142,7 @@ public class Lawnmower extends GPProblem implements SimpleProblemForm
             orientation = O_UP;
 
             // evaluate the individual
-            ((GPIndividual)ind).trees[0].child.eval(
-                state,threadnum,input,stack,((GPIndividual)ind),this);
+            ((GPIndividual)ind).trees[0].child.eval(state,threadnum,input,stack,((GPIndividual)ind),this);
                 
             // clean up the map
             for(int x=0;x<maxx;x++)

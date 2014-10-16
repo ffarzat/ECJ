@@ -1,0 +1,132 @@
+# "importando" o arquivo default para Grammatical Evolution 
+
+parent.0 = ../../gp/koza/koza.params
+parent.1 = ../../gp/ge/ge.params
+
+pop.subpop.0.species = ec.gp.ge.GESpecies
+pop.subpop.0.species.parser = ec.gp.ge.GrammarParser
+pop.subpop.0.species.ind = ec.gp.ge.GEIndividual
+pop.subpop.0.species.fitness = ec.gp.koza.KozaFitness
+ge.species.mutation-type = reset
+
+
+# The pipeline
+pop.subpop.0.species.ind.tree.0.print-style = c
+pop.subpop.0.species.pipe = ec.breed.MultiBreedingPipeline
+pop.subpop.0.species.pipe.num-sources = 3
+pop.subpop.0.species.pipe.source.0 = ec.vector.breed.ListCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.source.0 = ec.gp.ge.breed.GETruncationPipeline
+pop.subpop.0.species.pipe.source.0.source.0.source.0 = ec.select.TournamentSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+pop.subpop.0.species.pipe.source.0.prob = 0.9
+pop.subpop.0.species.pipe.source.1 = ec.vector.breed.GeneDuplicationPipeline
+pop.subpop.0.species.pipe.source.1.source.0 = ec.gp.ge.breed.GETruncationPipeline
+pop.subpop.0.species.pipe.source.1.source.0.source.0 = ec.select.TournamentSelection
+pop.subpop.0.species.pipe.source.1.prob = 0.05
+pop.subpop.0.species.pipe.source.2 = ec.vector.breed.VectorMutationPipeline
+pop.subpop.0.species.pipe.source.2.source.0 = ec.select.TournamentSelection
+pop.subpop.0.species.pipe.source.2.prob = 0.05
+select.tournament.size = 7
+
+# GP hacks
+pop.subpop.0.species.gp-species.fitness = ec.gp.koza.KozaFitness
+pop.subpop.0.species.gp-species.ind = ec.gp.GPIndividual
+pop.subpop.0.species.gp-species.pipe = ec.breed.ReproductionPipeline
+pop.subpop.0.species.gp-species.pipe.num-sources = 1
+pop.subpop.0.species.gp-species.pipe.source.0 = ec.select.TournamentSelection
+
+
+gp.tc.size = 1
+gp.tc.0 = ec.gp.GPTreeConstraints
+gp.tc.0.name = tc0
+gp.tc.0.fset = f0
+gp.tc.0.returns = nil
+
+
+gp.type.a.size = 1
+gp.type.a.0.name = nil
+gp.type.s.size = 0
+
+# More GP hacks to handle an ADF
+pop.subpop.0.species.gp-species.ind.numtrees = 1
+pop.subpop.0.species.gp-species.ind.tree.0 = ec.gp.GPTree
+pop.subpop.0.species.gp-species.ind.tree.0.tc = tc0
+
+#GPNodes , entradas e saídas
+gp.nc.size = 3
+
+gp.nc.0 = ec.gp.GPNodeConstraints
+gp.nc.0.name = nc0
+gp.nc.0.returns = nil
+gp.nc.0.size = 0
+
+gp.nc.1 = ec.gp.GPNodeConstraints
+gp.nc.1.name = nc1
+gp.nc.1.returns = nil
+gp.nc.1.size = 1
+gp.nc.1.child.0 = nil
+
+gp.nc.2 = ec.gp.GPNodeConstraints
+gp.nc.2.name = nc2
+gp.nc.2.returns = nil
+gp.nc.2.size = 2
+gp.nc.2.child.0 = nil
+gp.nc.2.child.1 = nil
+
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = nc3
+gp.nc.3.returns = nil
+gp.nc.3.size = 3
+gp.nc.3.child.0 = nil
+gp.nc.3.child.1 = nil
+gp.nc.3.child.2 = nil
+
+
+
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+
+# We have five functions in the function set.  They are:
+gp.fs.0.size = 5
+
+gp.fs.0.func.0 = ec.app.GETeste.X
+gp.fs.0.func.0.nc = nc0
+
+gp.fs.0.func.1 = ec.app.GETeste.Y
+gp.fs.0.func.1.nc = nc0
+
+gp.fs.0.func.2 = ec.app.GETeste.Somar
+gp.fs.0.func.2.nc = nc2
+
+gp.fs.0.func.3 = ec.app.GETeste.Escrever
+gp.fs.0.func.3.nc = nc1
+
+gp.fs.0.func.4 = ec.app.GETeste.Salvarlog
+gp.fs.0.func.4.nc = nc2
+
+
+gp.fs.1 = ec.gp.GPFunctionSet
+gp.fs.1.name = Somar
+gp.fs.1.func.0 = ec.app.GETeste.Somar
+gp.fs.1.func.0.nc = nc2
+
+
+#
+# Problema
+#
+eval.problem = ec.app.GETeste.GETesteProblem
+eval.problem.data = ec.app.GETeste.DoubleData
+
+# Gramática
+ge.species.file.0 = GETeste.grammar
+#ge.species.file.1 = Somar.grammar
+
+
+
+
+
+
+
