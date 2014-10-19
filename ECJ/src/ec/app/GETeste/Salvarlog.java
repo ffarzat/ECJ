@@ -19,9 +19,9 @@ public class Salvarlog extends GPNode {
 	public void eval(EvolutionState state, int thread, GPData input,
 			ADFStack stack, GPIndividual individual, Problem problem) {
 
-		for (int i = 0; i < 50000; i++) {
+		for (int i = 0; i < 5000; i++) {
 			
-			//nothing
+			
 		}
 
 	}

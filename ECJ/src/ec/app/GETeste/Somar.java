@@ -40,6 +40,7 @@ public class Somar extends GPNode {
 	        
 	        //Faz a soma
 	        rd.z = rd.x + rd.y;
+	        
 	        }
 
 }

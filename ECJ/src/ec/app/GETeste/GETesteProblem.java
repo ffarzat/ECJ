@@ -28,21 +28,26 @@ public class GETesteProblem extends GPProblem implements SimpleProblemForm
 		{
 			DoubleData input = (DoubleData)(this.input);
 			
+			currentX = state.random[threadnum].nextDouble();
+            currentY = state.random[threadnum].nextDouble();
+            double total = currentX +currentY;
             
-			double fitness = 0.0;
+			double fitness = 0.0001;
             
 			long time = System.nanoTime();
             
 			((GPIndividual)ind).trees[0].child.eval(state, threadnum, input, stack, (GPIndividual) ind, this);
-						
+			
 			long totalTime = (System.nanoTime() - time) ; 
 			
 			//System.out.println(input.z);
 			
-			if(input.z == (input.x + input.y) ) //A soma bate?
+			if(input.z == total ) //A soma bate? Aqui executaria testes...
 			{
-				fitness = totalTime ; 
-				System.out.println(totalTime);
+				fitness = totalTime - 20.99;
+				//fitness = totalTime  - 1.0;
+				//ind.printIndividualForHumans(state, threadnum);
+				//System.out.println(totalTime);
 			}
 			
 			// the fitness better be KozaFitness!
@@ -50,9 +55,7 @@ public class GETesteProblem extends GPProblem implements SimpleProblemForm
 	        f.setStandardizedFitness(state,(fitness));
 	        f.hits = Integer.parseInt(String.valueOf(totalTime));
 	        ind.evaluated = true;
-			
-	        if(fitness > 0)
-	        	ind.printIndividualForHumans(state, threadnum);
+		
 		}
 		
 		

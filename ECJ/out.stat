@@ -1,0 +1,32 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=38060
+Tree 0:
+ (println x)
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4277
+Tree 0:
+ (LogInFile (LogInFile (LogInFile x x) (println
+     x)) (+ (println x) (LogInFile y x)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (+ x y)
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Tree 0:
+ (+ x y)
