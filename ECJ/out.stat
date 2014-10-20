@@ -3,20 +3,76 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=38060
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=50034
 Tree 0:
- (println x)
+ (LogInFile (println (+ y y)))
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4277
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=3421
 Tree 0:
- (LogInFile (LogInFile (LogInFile x x) (println
-     x)) (+ (println x) (LogInFile y x)))
+ (println (+ (+ (LogInFile x) (println y))
+     (println y)))
 
 Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=2993
+Tree 0:
+ (println (println (+ (LogInFile y) (println
+     (+ (println (+ x y)) (println (+ y y)))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=1710
+Tree 0:
+ x
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4704
+Tree 0:
+ (+ (LogInFile x) (LogInFile (+ (+ (LogInFile
+     y) (LogInFile x)) (LogInFile (+ (println
+     y) (LogInFile y))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=2138
+Tree 0:
+ (LogInFile (+ (+ y y) (println (println y))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4704
+Tree 0:
+ (+ (LogInFile (+ (+ (LogInFile (LogInFile
+     x)) (LogInFile (+ (+ (LogInFile y) x) (+
+     x y)))) (+ (LogInFile (LogInFile (LogInFile
+     y))) (LogInFile x)))) (println x))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=5987
+Tree 0:
+ (+ (+ (println (+ x x)) (println (LogInFile
+     (println x)))) (LogInFile (+ (println y)
+     (+ y x))))
+
+Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: true

@@ -38,6 +38,8 @@ public class Y extends GPNode
         {
         DoubleData rd = ((DoubleData)(input));
         rd.y = ((GETesteProblem)problem).currentY;
+        
+        rd.z = state.random[0].nextDouble(); //errar a soma
         }
     }
 

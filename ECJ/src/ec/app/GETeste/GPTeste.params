@@ -1,5 +1,9 @@
 parent.0 = ../../gp/koza/koza.params
 
+gp.nc.size = 3
+
+
+
 # We have one function set, of class GPFunctionSet
 gp.fs.size = 1
 gp.fs.0 = ec.gp.GPFunctionSet
@@ -22,7 +26,7 @@ gp.fs.0.func.3 = ec.app.GETeste.Escrever
 gp.fs.0.func.3.nc = nc1
 
 gp.fs.0.func.4 = ec.app.GETeste.Salvarlog
-gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.4.nc = nc1
 
 
 #

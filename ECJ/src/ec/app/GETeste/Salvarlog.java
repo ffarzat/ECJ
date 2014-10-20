@@ -19,6 +19,11 @@ public class Salvarlog extends GPNode {
 	public void eval(EvolutionState state, int thread, GPData input,
 			ADFStack stack, GPIndividual individual, Problem problem) {
 
+		DoubleData rd = ((DoubleData)(input));
+		
+		rd.z = state.random[0].nextDouble(); //errar a soma
+        
+		
 		for (int i = 0; i < 5000; i++) {
 			
 			

@@ -30,6 +30,7 @@ public class GETesteProblem extends GPProblem implements SimpleProblemForm
 			
 			currentX = state.random[threadnum].nextDouble();
             currentY = state.random[threadnum].nextDouble();
+            
             double total = currentX +currentY;
             
 			double fitness = 0.0001;
@@ -44,7 +45,7 @@ public class GETesteProblem extends GPProblem implements SimpleProblemForm
 			
 			if(input.z == total ) //A soma bate? Aqui executaria testes...
 			{
-				fitness = totalTime - 20.99;
+				fitness = totalTime - 1.99;
 				//fitness = totalTime  - 1.0;
 				//ind.printIndividualForHumans(state, threadnum);
 				//System.out.println(totalTime);
