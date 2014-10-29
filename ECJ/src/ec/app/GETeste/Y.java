@@ -12,22 +12,9 @@ import ec.util.*;
 
 public class Y extends GPNode
     {
-    public String toString() { return "y"; }
-
-/*
-  public void checkConstraints(final EvolutionState state,
-  final int tree,
-  final GPIndividual typicalIndividual,
-  final Parameter individualBase)
-  {
-  super.checkConstraints(state,tree,typicalIndividual,individualBase);
-  if (children.length!=0)
-  state.output.error("Incorrect number of children for node " + 
-  toStringForError() + " at " +
-  individualBase);
-  }
-*/
-    public int expectedChildren() { return 0; }
+	public String toString() { return "Y"; }
+	
+    //public int expectedChildren() { return 0; }
 
     public void eval(final EvolutionState state,
         final int thread,
@@ -36,10 +23,8 @@ public class Y extends GPNode
         final GPIndividual individual,
         final Problem problem)
         {
-        DoubleData rd = ((DoubleData)(input));
-        rd.y = ((GETesteProblem)problem).currentY;
-        
-        rd.z = state.random[0].nextDouble(); //errar a soma
+        	SomaData rd = ((SomaData)(input));
+        	rd.valor_2 = ((GETesteProblem)problem).currentY;
         }
     }
 

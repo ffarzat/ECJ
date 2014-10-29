@@ -11,24 +11,21 @@ public class Salvarlog extends GPNode {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return "LogInFile";
+		return "Log";
 	}
 
+	//public int expectedChildren() { return 2; }
+	
 	@Override
 	public void eval(EvolutionState state, int thread, GPData input,
-			ADFStack stack, GPIndividual individual, Problem problem) {
-
-		DoubleData rd = ((DoubleData)(input));
-		
-		rd.z = state.random[0].nextDouble(); //errar a soma
-        
-		
-		for (int i = 0; i < 5000; i++) {
-			
-			
+			ADFStack stack, GPIndividual individual, Problem problem) 
+	{
+/*		SomaData rd = ((SomaData)(input));
+    	rd.valor_1 = 1;
+    	rd.valor_2 = 2;
+		rd.total += 100;*/
+    	
+		for (int i = 0; i < 10000; i++) {
 		}
-
 	}
-
 }

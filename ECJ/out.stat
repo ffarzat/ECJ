@@ -3,132 +3,589 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=41481
+Fitness: 0.0
 Tree 0:
- (println (LogInFile y))
+ (SOMA (SOMA X X) (SOMA X Escrever))
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=10263
+Fitness: 0.0
 Tree 0:
- (+ x (LogInFile (+ (println y) (+ y y))))
+ (SOMA (SOMA (SOMA (SOMA Escrever Log) (SOMA
+     X X)) (SOMA (SOMA Y X) (SOMA Y Escrever)))
+     (SOMA (SOMA (SOMA Y X) (SOMA Y Log)) (SOMA
+         (SOMA Escrever Log) (SOMA Log X))))
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4276
+Fitness: 0.0
 Tree 0:
- (LogInFile (+ x y))
+ (SOMA (SOMA (SOMA (SOMA Log Y) (SOMA Log
+     Escrever)) (SOMA (SOMA Y Escrever) (SOMA
+     Y X))) (SOMA Log Y))
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4276
+Fitness: 0.0
 Tree 0:
- (LogInFile (println (+ x x)))
+ (SOMA Escrever X)
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=3422
+Fitness: 0.0
 Tree 0:
- (LogInFile x)
+ (SOMA (SOMA Log Log) (SOMA Y Log))
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=3421
+Fitness: 0.0
 Tree 0:
- (println (println (println (+ (LogInFile
-     (LogInFile (LogInFile (+ (println (+ y y))
-         (LogInFile (LogInFile x)))))) (LogInFile
-     (println (+ (LogInFile (+ (println y) (+
-         (LogInFile y) (println x)))) (println (println
-         y)))))))))
+ (SOMA (SOMA (SOMA X Escrever) (SOMA (SOMA
+     X X) X)) (SOMA Log Y))
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=15823
+Fitness: 0.0
 Tree 0:
- (+ (+ (LogInFile (LogInFile (LogInFile x)))
-     (+ (println x) (LogInFile y))) (println (+
-     (println y) (LogInFile y))))
+ (SOMA (SOMA (SOMA Log Log) (SOMA X Escrever))
+     (SOMA Y Log))
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=6842
+Fitness: 0.0
 Tree 0:
- (+ (println (println (+ y (println x))))
-     (println y))
+ (SOMA (SOMA (SOMA (SOMA (SOMA (SOMA (SOMA
+     Log Y) (SOMA Escrever Log)) (SOMA (SOMA (SOMA
+     X (SOMA Escrever X)) Escrever) (SOMA X Escrever)))
+     (SOMA (SOMA (SOMA Escrever Log) (SOMA Log
+         Y)) (SOMA (SOMA Y Y) (SOMA Y Y)))) (SOMA
+     Log (SOMA (SOMA (SOMA (SOMA (SOMA Log X)
+     (SOMA Escrever Log)) (SOMA (SOMA Escrever
+     X) X)) (SOMA X Y)) (SOMA (SOMA Log Escrever)
+     (SOMA Log Log))))) (SOMA X Log)) (SOMA (SOMA
+     Escrever Y) (SOMA (SOMA X X) (SOMA X Y))))
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4704
+Fitness: 0.0
 Tree 0:
- (+ (println (LogInFile (LogInFile x))) (println
-     (LogInFile (+ (println (println (+ (LogInFile
-         (println (LogInFile y))) (LogInFile (println
-         (println x)))))) (println (println x))))))
+ (SOMA X (SOMA (SOMA Log (SOMA Escrever Escrever))
+     (SOMA (SOMA Escrever Escrever) (SOMA Escrever
+         Escrever))))
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=2139
+Fitness: 0.0
 Tree 0:
- (println y)
+ (SOMA (SOMA Y X) (SOMA (SOMA (SOMA (SOMA
+     X Escrever) (SOMA Escrever Log)) (SOMA (SOMA
+     X X) (SOMA Log Escrever))) (SOMA X Log)))
 
 Generation: 10
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=4277
+Fitness: 0.0
 Tree 0:
- (+ (LogInFile (LogInFile x)) (LogInFile (+
-     y y)))
+ (SOMA (SOMA (SOMA (SOMA Log X) (SOMA (SOMA
+     (SOMA Y Log) (SOMA (SOMA Log Escrever) (SOMA
+     X X))) (SOMA (SOMA (SOMA X Escrever) (SOMA
+     Log Log)) (SOMA (SOMA Escrever Log) (SOMA
+     X Escrever))))) (SOMA (SOMA Y Y) (SOMA (SOMA
+     Escrever Log) (SOMA Y Escrever)))) (SOMA
+     Escrever Escrever))
 
 Generation: 11
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=2138
+Fitness: 0.0
 Tree 0:
- (LogInFile (println (+ (LogInFile x) (+ (+
-     (+ (LogInFile x) (+ y (println x))) (LogInFile
-     (println (println (+ x (println y)))))) (+
-     (LogInFile y) (println y))))))
+ (SOMA (SOMA Y Y) (SOMA (SOMA (SOMA X X) (SOMA
+     X X)) (SOMA (SOMA X Log) (SOMA Y Log))))
 
 Generation: 12
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=1.0E-4 Adjusted=0.9999000099990001 Hits=2566
+Fitness: 0.0
 Tree 0:
- (LogInFile y)
+ (SOMA (SOMA (SOMA (SOMA Y (SOMA (SOMA Y Escrever)
+     Escrever)) (SOMA (SOMA Log Log) (SOMA Log
+     Y))) (SOMA (SOMA (SOMA Y Escrever) (SOMA
+     Y Y)) (SOMA Y (SOMA Y Log)))) (SOMA (SOMA
+     (SOMA (SOMA (SOMA X Escrever) (SOMA Escrever
+         Y)) (SOMA Y (SOMA Escrever X))) (SOMA (SOMA
+     (SOMA Y (SOMA (SOMA Escrever Escrever) (SOMA
+         (SOMA (SOMA Y Y) (SOMA (SOMA (SOMA (SOMA
+             Y X) (SOMA Y Y)) (SOMA Y Y)) (SOMA (SOMA
+             Escrever Escrever) (SOMA Escrever Escrever))))
+         (SOMA X (SOMA Escrever Y))))) Log) (SOMA
+     X Escrever))) (SOMA (SOMA (SOMA Escrever
+     Y) (SOMA Escrever Escrever)) (SOMA (SOMA
+     Log Log) (SOMA Escrever Escrever)))))
 
 Generation: 13
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Fitness: 0.0
 Tree 0:
- (+ y x)
+ (SOMA (SOMA (SOMA X Y) (SOMA Escrever Y))
+     (SOMA (SOMA X Y) (SOMA (SOMA Escrever Log)
+         (SOMA (SOMA (SOMA X (SOMA Y Log)) (SOMA Y
+             Y)) Escrever))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Y Escrever) (SOMA (SOMA (SOMA
+     Y Escrever) (SOMA X Y)) (SOMA (SOMA Y Y)
+     (SOMA Escrever Log))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA (SOMA X X) (SOMA
+     Escrever Escrever)) (SOMA (SOMA (SOMA Log
+     Y) (SOMA Escrever Log)) (SOMA (SOMA Log Escrever)
+     (SOMA (SOMA X Y) (SOMA (SOMA Escrever X)
+         (SOMA Y X)))))) (SOMA (SOMA (SOMA Escrever
+     Escrever) (SOMA (SOMA Escrever Log) (SOMA
+     Y X))) (SOMA (SOMA Y (SOMA Y X)) (SOMA Escrever
+     X)))) (SOMA (SOMA (SOMA (SOMA (SOMA Y (SOMA
+     X Y)) (SOMA (SOMA (SOMA X Y) (SOMA Log X))
+     (SOMA (SOMA X X) (SOMA Log Escrever)))) Log)
+     (SOMA Escrever Log)) (SOMA (SOMA (SOMA Escrever
+     Log) (SOMA (SOMA X Y) Y)) (SOMA (SOMA X Y)
+     (SOMA (SOMA Escrever Escrever) Escrever)))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA Escrever (SOMA (SOMA X (SOMA (SOMA
+     Log Log) (SOMA (SOMA Y Y) (SOMA Escrever
+     X)))) (SOMA Y X)))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Log (SOMA (SOMA Log (SOMA Escrever
+     Escrever)) X)) Log)
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA Log X) (SOMA (SOMA
+     (SOMA Escrever Y) (SOMA (SOMA Log Escrever)
+     (SOMA X X))) (SOMA (SOMA (SOMA Y Log) (SOMA
+     Log Log)) (SOMA Log Log)))) (SOMA Escrever
+     Y)) (SOMA (SOMA Log Y) (SOMA Y (SOMA (SOMA
+     (SOMA (SOMA Escrever Log) (SOMA (SOMA (SOMA
+         Escrever Y) (SOMA Y Y)) Escrever)) (SOMA
+     (SOMA (SOMA (SOMA X Log) Y) (SOMA Y Y)) (SOMA
+     (SOMA Escrever Y) (SOMA Log Log)))) (SOMA
+     (SOMA (SOMA Log (SOMA (SOMA (SOMA Log Escrever)
+         (SOMA Y Escrever)) (SOMA (SOMA (SOMA Log
+         (SOMA X Y)) (SOMA Escrever (SOMA X Y))) (SOMA
+         Y Y)))) (SOMA Escrever (SOMA Log Escrever)))
+     X)))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA (SOMA Escrever X)
+     (SOMA X X)) (SOMA (SOMA X Y) (SOMA X Log)))
+     (SOMA (SOMA (SOMA Log Log) (SOMA Escrever
+         Escrever)) (SOMA (SOMA (SOMA (SOMA (SOMA
+         (SOMA (SOMA (SOMA Escrever Y) X) (SOMA Y
+             Y)) (SOMA Log Y)) (SOMA (SOMA X X) (SOMA
+         Escrever X))) (SOMA (SOMA (SOMA X Y) (SOMA
+         Escrever Log)) (SOMA (SOMA Log Escrever)
+         (SOMA Y Y)))) (SOMA (SOMA (SOMA (SOMA (SOMA
+         Escrever Escrever) (SOMA Escrever Y)) (SOMA
+         Escrever Y)) (SOMA (SOMA Y Escrever) (SOMA
+         X Escrever))) (SOMA X Escrever))) (SOMA Escrever
+         Log)))) (SOMA (SOMA (SOMA (SOMA X Y) (SOMA
+     X Log)) (SOMA (SOMA (SOMA Escrever X) (SOMA
+     (SOMA (SOMA Escrever Escrever) (SOMA Log
+         (SOMA (SOMA Escrever X) (SOMA Log Escrever))))
+     (SOMA (SOMA (SOMA Escrever X) (SOMA Log Y))
+         (SOMA (SOMA Y Log) X)))) (SOMA Y Log))) (SOMA
+     (SOMA (SOMA X Log) (SOMA X Escrever)) (SOMA
+     Escrever Escrever))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA Log (SOMA Y Y)) (SOMA Log
+     X)) (SOMA (SOMA (SOMA (SOMA Y Log) (SOMA
+     (SOMA X Log) (SOMA (SOMA (SOMA Escrever (SOMA
+     Escrever Log)) Log) (SOMA (SOMA (SOMA X Log)
+     (SOMA (SOMA (SOMA Log Y) (SOMA X Log)) (SOMA
+         (SOMA (SOMA (SOMA X Escrever) (SOMA X Log))
+             (SOMA (SOMA Log Escrever) (SOMA X (SOMA Escrever
+                 Log)))) (SOMA X (SOMA Y Escrever))))) Log))))
+     (SOMA Log Escrever)) (SOMA Y Log)))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 1182.01
+Tree 0:
+ (SOMA Y X)
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA Log Y) (SOMA (SOMA Log
+     Escrever) (SOMA (SOMA (SOMA (SOMA X (SOMA
+     X Escrever)) (SOMA Log X)) (SOMA Y (SOMA
+     (SOMA Log Log) (SOMA (SOMA Log Y) (SOMA Log
+     X))))) (SOMA Y Y)))) Log)
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA Escrever Y) Log)
+     (SOMA (SOMA (SOMA (SOMA Escrever Escrever)
+         Y) (SOMA Escrever Log)) (SOMA X Log))) (SOMA
+     Escrever X))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA X Y) Log) (SOMA (SOMA Log
+     X) (SOMA Log (SOMA (SOMA Y (SOMA Escrever
+     X)) (SOMA (SOMA X Escrever) (SOMA Y Log))))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA Log (SOMA Log (SOMA (SOMA (SOMA (SOMA
+     Escrever Escrever) (SOMA (SOMA Escrever Escrever)
+     (SOMA (SOMA (SOMA (SOMA Escrever Y) X) Escrever)
+         (SOMA Y Escrever)))) Escrever) (SOMA (SOMA
+     Y Escrever) (SOMA (SOMA Y (SOMA Y Escrever))
+     Log)))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA Y (SOMA (SOMA Log (SOMA (SOMA (SOMA
+     Escrever Y) (SOMA Escrever Escrever)) (SOMA
+     Log Escrever))) (SOMA Escrever (SOMA Escrever
+     Y))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA Log (SOMA (SOMA Y Escrever) (SOMA Log
+     Y)))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA Escrever (SOMA Y Log))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA X Escrever) (SOMA
+     X Y)) Escrever) (SOMA (SOMA Y X) (SOMA (SOMA
+     Escrever Log) (SOMA (SOMA Log Escrever) (SOMA
+     Y Escrever)))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Escrever X) (SOMA (SOMA Y X)
+     (SOMA (SOMA (SOMA Y X) (SOMA (SOMA Y Log)
+         (SOMA (SOMA X Log) (SOMA (SOMA Escrever Y)
+             (SOMA Y X))))) (SOMA (SOMA X Log) (SOMA (SOMA
+         Escrever Y) (SOMA Y X))))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Escrever Log) (SOMA Escrever
+     Escrever))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA X X) Log) Escrever)
+     (SOMA Log (SOMA (SOMA (SOMA Y Y) Log) (SOMA
+         X (SOMA Escrever Y)))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Y Log) (SOMA Log Log))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Y (SOMA (SOMA Escrever Y) Log))
+     (SOMA (SOMA (SOMA Escrever X) (SOMA (SOMA
+         Escrever Log) (SOMA Escrever Y))) (SOMA (SOMA
+         Y Y) (SOMA X Escrever))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Escrever X) (SOMA Escrever Log))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA Y (SOMA (SOMA (SOMA (SOMA
+     (SOMA Escrever (SOMA (SOMA Escrever Y) (SOMA
+         Log (SOMA Escrever (SOMA Escrever Escrever)))))
+     X) (SOMA Escrever (SOMA (SOMA Y Y) (SOMA
+     (SOMA (SOMA Escrever Y) Escrever) X)))) X)
+     (SOMA (SOMA Log Escrever) Escrever))) (SOMA
+     Escrever Y)) (SOMA (SOMA Y Log) (SOMA Y (SOMA
+     X X))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA X (SOMA (SOMA Escrever (SOMA
+     X Log)) (SOMA Log (SOMA Log (SOMA Log X)))))
+     (SOMA (SOMA Y Escrever) (SOMA Escrever X)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 327.01
+Tree 0:
+ (SOMA X Y)
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA X (SOMA (SOMA (SOMA (SOMA (SOMA
+     (SOMA Escrever Y) (SOMA Escrever Y)) Escrever)
+     (SOMA (SOMA Log Escrever) (SOMA X Y))) (SOMA
+     (SOMA (SOMA Escrever Y) Escrever) (SOMA Escrever
+     X))) (SOMA (SOMA Y X) X))) (SOMA Escrever
+     (SOMA Escrever X)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA Log (SOMA (SOMA Escrever X) (SOMA Log
+     Escrever)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ Log
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Log Escrever) (SOMA (SOMA Log
+     Log) (SOMA (SOMA Escrever Log) (SOMA (SOMA
+     X (SOMA Escrever X)) (SOMA Y Escrever)))))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ Escrever
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Log (SOMA X Escrever)) (SOMA
+     (SOMA Log Escrever) Escrever))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA (SOMA Log (SOMA X X)) (SOMA
+     (SOMA X Y) (SOMA X Log))) (SOMA (SOMA (SOMA
+     Log Log) (SOMA Escrever Escrever)) (SOMA
+     (SOMA (SOMA (SOMA (SOMA (SOMA (SOMA Escrever
+         Escrever) (SOMA Y Y)) (SOMA (SOMA Escrever
+         X) (SOMA Y Y))) (SOMA (SOMA Log Escrever)
+         (SOMA Escrever X))) (SOMA (SOMA (SOMA (SOMA
+         Y Y) Escrever) (SOMA (SOMA (SOMA (SOMA Y
+         Escrever) Escrever) Escrever) (SOMA Log Escrever)))
+         (SOMA (SOMA Log Escrever) (SOMA Y Y)))) (SOMA
+         (SOMA Escrever Escrever) (SOMA (SOMA X (SOMA
+         Escrever X)) Log))) (SOMA Y Log)))) (SOMA
+     (SOMA (SOMA (SOMA X Y) (SOMA X (SOMA (SOMA
+         Log X) (SOMA (SOMA (SOMA (SOMA Escrever (SOMA
+         Escrever (SOMA (SOMA (SOMA Escrever Y) Y)
+         (SOMA X Y)))) (SOMA (SOMA Log Escrever) (SOMA
+         X Y))) (SOMA (SOMA (SOMA Escrever (SOMA Y
+         Log)) Log) (SOMA (SOMA (SOMA Y Log) X) (SOMA
+         (SOMA Escrever X) (SOMA Escrever Log)))))
+         (SOMA Y Y))))) (SOMA (SOMA Y Escrever) Escrever))
+     (SOMA (SOMA (SOMA X Log) (SOMA X Escrever))
+         (SOMA Escrever Escrever))))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA Y Log) (SOMA X Escrever))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 1182.01
+Tree 0:
+ (SOMA Y X)
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 1182.01
+Tree 0:
+ (SOMA Y X)
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA (SOMA X Escrever) (SOMA (SOMA
+     Y Log) Escrever)) (SOMA (SOMA Escrever Log)
+     (SOMA (SOMA (SOMA (SOMA (SOMA Log Y) (SOMA
+         (SOMA (SOMA Y Log) (SOMA X Log)) (SOMA Escrever
+         (SOMA Log Y)))) (SOMA X Escrever)) (SOMA
+         Log (SOMA Y Y))) (SOMA Y Escrever))))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: 0.0
+Tree 0:
+ (SOMA (SOMA X (SOMA Escrever X)) (SOMA Escrever
+     Log))
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
+Fitness: 1182.01
 Tree 0:
- (+ y x)
+ (SOMA Y X)

@@ -1,14 +1,26 @@
 parent.0 = ../../gp/koza/koza.params
 
-gp.nc.size = 3
-
-
-
-# We have one function set, of class GPFunctionSet
 gp.fs.size = 1
-gp.fs.0 = ec.gp.GPFunctionSet
-# We'll call the function set "f0".
 gp.fs.0.name = f0
+
+
+# Redefino os tipos
+#gp.type.a.size = 4
+#gp.type.a.0.name = nil
+#gp.type.a.1.name = valor1
+#gp.type.a.2.name = valor2
+#gp.type.a.3.name = total
+#gp.type.s.size = 0
+
+#Cria a restriçao para soma
+#gp.nc.size = 8
+#gp.nc.7 = ec.gp.GPNodeConstraints
+#gp.nc.7.name = ncSoma
+#gp.nc.7.returns = total
+#gp.nc.7.size = 2
+#gp.nc.7.child.0 = valor1
+#gp.nc.7.child.1 = valor2
+
 
 # We have five functions in the function set.  They are:
 gp.fs.0.size = 5
@@ -23,14 +35,15 @@ gp.fs.0.func.2 = ec.app.GETeste.Somar
 gp.fs.0.func.2.nc = nc2
 
 gp.fs.0.func.3 = ec.app.GETeste.Escrever
-gp.fs.0.func.3.nc = nc1
+gp.fs.0.func.3.nc = nc0
 
 gp.fs.0.func.4 = ec.app.GETeste.Salvarlog
-gp.fs.0.func.4.nc = nc1
+gp.fs.0.func.4.nc = nc0
 
-
-#
 # Problema
-#
 eval.problem = ec.app.GETeste.GETesteProblem
-eval.problem.data = ec.app.GETeste.DoubleData
+eval.problem.data = ec.app.GETeste.SomaData
+eval.problem.currentX = 4
+eval.problem.currentY = 6
+
+pop.subpop.0.species.fitness = ec.simple.SimpleFitness
