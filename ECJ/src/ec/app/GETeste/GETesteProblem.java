@@ -50,7 +50,7 @@ public class GETesteProblem extends GPProblem implements SimpleProblemForm
 			
 			long totalTime = (System.nanoTime() - time); 
 			
-			if(input.total == total ) //A soma bate? Aqui executaria testes...
+			if(input.total == total ) //A soma bate? Aqui seria a execução de testes...
 			{	
 				fitness = totalTime - 100.99;
 				//fitness = 100.99;
@@ -58,9 +58,9 @@ public class GETesteProblem extends GPProblem implements SimpleProblemForm
 				 f.setFitness(state, fitness, false);
 				ind.evaluated = true;
 				//fitness = totalTime  - 1.0;
-				ind.printIndividualForHumans(state, threadnum);
+/*				ind.printIndividualForHumans(state, threadnum);
 				System.out.println("X=" + currentX );
-				System.out.println("Y=" + currentY );
+				System.out.println("Y=" + currentY );*/
 			}
 			
 			// the fitness better be KozaFitness!
