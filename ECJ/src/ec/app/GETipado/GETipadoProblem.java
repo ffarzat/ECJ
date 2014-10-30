@@ -54,10 +54,10 @@ public class GETipadoProblem extends GPProblem implements SimpleProblemForm
 			
 			if(input.inteiro == total) //A soma bate? Aqui seria a execução de testes...
 			{	
-				if(totalTime == 0.0)
-					totalTime = 00001;
+/*				if(totalTime == 0.0)
+					totalTime = 00001;*/
 				
-				fitness = totalTime - 100.99;
+				fitness = 1000000 - totalTime;
 				//fitness = 100.99;
 				SimpleFitness f = ((SimpleFitness) ind.fitness);
 				 f.setFitness(state, fitness, false);
@@ -73,7 +73,7 @@ public class GETipadoProblem extends GPProblem implements SimpleProblemForm
 	        //f.setStandardizedFitness(state,(fitness));
 	        //f.hits = Integer.parseInt(String.valueOf(totalTime));
 			
-			//ind.printIndividualForHumans(state, threadnum);
+			ind.printIndividualForHumans(state, threadnum);
 			
 			 SimpleFitness f = ((SimpleFitness) ind.fitness);
 			 f.setFitness(state, fitness, false);

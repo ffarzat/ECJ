@@ -3,15 +3,15 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 326.01
+Fitness: 998717.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 755.01
+Fitness: 998717.0
 Tree 0:
  (SOMA X Y)
 
@@ -19,7 +19,7 @@ Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 755.01
+Fitness: 999573.0
 Tree 0:
  (SOMA Y X)
 
@@ -27,15 +27,15 @@ Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 755.01
+Fitness: 999573.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 999573.0
 Tree 0:
  (SOMA X Y)
 
@@ -43,7 +43,7 @@ Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 999573.0
 Tree 0:
  (SOMA X Y)
 
@@ -51,7 +51,7 @@ Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 754.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -59,15 +59,15 @@ Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -75,39 +75,39 @@ Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 10
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 11
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 12
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 13
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 1609.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA Y X)
 
@@ -115,7 +115,7 @@ Generation: 14
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -123,7 +123,7 @@ Generation: 15
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA Y X)
 
@@ -131,23 +131,23 @@ Generation: 16
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 17
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 18
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 754.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -155,7 +155,7 @@ Generation: 19
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -163,31 +163,31 @@ Generation: 20
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 21
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 22
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 23
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -195,15 +195,15 @@ Generation: 24
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 25
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -211,15 +211,15 @@ Generation: 26
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 27
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8879.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -227,63 +227,63 @@ Generation: 28
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 29
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 30
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 31
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 32
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 33
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 34
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 35
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -291,7 +291,7 @@ Generation: 36
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -299,7 +299,7 @@ Generation: 37
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -307,7 +307,7 @@ Generation: 38
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -315,7 +315,7 @@ Generation: 39
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -323,7 +323,7 @@ Generation: 40
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -331,7 +331,7 @@ Generation: 41
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -339,7 +339,7 @@ Generation: 42
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -347,7 +347,7 @@ Generation: 43
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -355,7 +355,7 @@ Generation: 44
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8024.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -363,7 +363,7 @@ Generation: 45
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8024.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -371,7 +371,7 @@ Generation: 46
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -379,7 +379,7 @@ Generation: 47
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -387,7 +387,7 @@ Generation: 48
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -395,7 +395,7 @@ Generation: 49
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8452.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
@@ -403,13 +403,13 @@ Generation: 50
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 327.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: true
-Fitness: 8879.01
+Fitness: 1000000.0
 Tree 0:
  (SOMA X Y)
