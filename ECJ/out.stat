@@ -3,7 +3,7 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 998717.0
+Fitness: 999145.0
 Tree 0:
  (SOMA Y X)
 
@@ -11,15 +11,15 @@ Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 998717.0
+Fitness: 999144.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 999573.0
+Fitness: 999572.0
 Tree 0:
  (SOMA Y X)
 
@@ -27,9 +27,9 @@ Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: true
-Fitness: 999573.0
+Fitness: 999572.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 4
 Best Individual:
@@ -53,7 +53,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 7
 Best Individual:
@@ -61,7 +61,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 8
 Best Individual:
@@ -69,7 +69,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 9
 Best Individual:
@@ -93,7 +93,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 12
 Best Individual:
@@ -109,7 +109,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 14
 Best Individual:
@@ -125,7 +125,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 16
 Best Individual:
@@ -141,7 +141,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 18
 Best Individual:
@@ -157,7 +157,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 20
 Best Individual:
@@ -181,7 +181,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)
 
 Generation: 23
 Best Individual:
@@ -261,7 +261,7 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA Y X)
+ (SOMA X Y)
 
 Generation: 33
 Best Individual:
@@ -412,4 +412,4 @@ Subpopulation 0:
 Evaluated: true
 Fitness: 1000000.0
 Tree 0:
- (SOMA X Y)
+ (SOMA Y X)

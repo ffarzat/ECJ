@@ -73,7 +73,7 @@ public class GETipadoProblem extends GPProblem implements SimpleProblemForm
 	        //f.setStandardizedFitness(state,(fitness));
 	        //f.hits = Integer.parseInt(String.valueOf(totalTime));
 			
-			ind.printIndividualForHumans(state, threadnum);
+			//ind.printIndividualForHumans(state, threadnum);
 			
 			 SimpleFitness f = ((SimpleFitness) ind.fitness);
 			 f.setFitness(state, fitness, false);
