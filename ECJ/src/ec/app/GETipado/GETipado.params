@@ -1,0 +1,93 @@
+parent.0 = ../../gp/koza/koza.params
+
+#defino os tipos 
+gp.type.a.size = 3
+gp.type.a.0.name = inteiro
+gp.type.a.1.name = string
+gp.type.a.2.name = nil
+
+#defino um SET de tipos equivalentes
+gp.type.s.size = 2
+
+gp.type.s.0.name = inteiro-ou-string
+gp.type.s.0.size = 2
+gp.type.s.0.member.0 = inteiro
+gp.type.s.0.member.1 = string
+
+gp.type.s.1.name = inteiro-ou-nil
+gp.type.s.1.size = 2
+gp.type.s.1.member.0 = inteiro
+gp.type.s.1.member.1 = nil
+
+#Defino a árvore de execução
+gp.tc.size = 1
+gp.tc.0 = ec.gp.GPTreeConstraints
+gp.tc.0.name = tc0
+gp.tc.0.fset = f0
+gp.tc.0.returns = inteiro
+
+#gp.tc.1 = ec.gp.GPTreeConstraints
+#gp.tc.1.name = tc1
+#gp.tc.1.fset = f1
+#gp.tc.1.returns = nil
+
+#gp.tc.2 = ec.gp.GPTreeConstraints
+#gp.tc.2.name = tc2
+#gp.tc.2.fset = f2
+#gp.tc.2.returns = nil
+
+
+#Redefino o nc1
+gp.nc.1 = ec.gp.GPNodeConstraints
+gp.nc.1.name = nc1
+gp.nc.1.returns = nil
+gp.nc.1.size = 1
+gp.nc.1.child.0 = string
+
+#Redefino o nc2
+gp.nc.2 = ec.gp.GPNodeConstraints
+gp.nc.2.name = nc2
+gp.nc.2.returns = inteiro
+gp.nc.2.size = 2
+gp.nc.2.child.0 = inteiro
+gp.nc.2.child.1 = inteiro
+
+#redefino o nc3
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = nc3
+gp.nc.3.returns = inteiro
+gp.nc.3.size = 0
+
+
+
+#Defino o Function Set
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.size = 5
+
+gp.fs.0.func.0 = ec.app.GETipado.X
+gp.fs.0.func.0.nc = nc3
+
+gp.fs.0.func.1 = ec.app.GETipado.Y
+gp.fs.0.func.1.nc = nc3
+
+gp.fs.0.func.2 = ec.app.GETipado.Somar
+gp.fs.0.func.2.nc = nc2
+
+gp.fs.0.func.3 = ec.app.GETipado.Escrever
+gp.fs.0.func.3.nc = nc1
+
+gp.fs.0.func.4 = ec.app.GETipado.Salvarlog
+gp.fs.0.func.4.nc = nc1
+
+# Problema
+eval.problem = ec.app.GETipado.GETipadoProblem
+eval.problem.data = ec.app.GETipado.GETipadoData
+#fixo os valores para a soma
+eval.problem.currentX = 4
+eval.problem.currentY = 6
+
+#Mudo para simple Fit
+pop.subpop.0.species.fitness = ec.simple.SimpleFitness
+
+
+
