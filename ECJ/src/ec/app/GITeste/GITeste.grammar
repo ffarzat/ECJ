@@ -1,0 +1,2 @@
+<start> ::= <op>
+<op> ::= (X) | (Y)| (Somar <op> <op>) | (Escrever <op>) | (Salvarlog <op>)
