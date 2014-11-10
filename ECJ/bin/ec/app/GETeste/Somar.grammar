@@ -1,0 +1,2 @@
+<start> ::= <main>
+<main> ::= ((x) + (y))

@@ -1,0 +1,3 @@
+<start> ::= <main>
+<main> ::= (Somar (x) (y))
+<Somar> ::= ((Escrever)  | (Salvarlog)) 

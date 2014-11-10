@@ -1,0 +1,86 @@
+parent.0 = ../../gp/koza/koza.params
+
+#defino os tipos 
+gp.type.a.size = 3
+gp.type.a.0.name = inteiro
+gp.type.a.1.name = string
+gp.type.a.2.name = nil
+
+
+
+#Defino a árvore de execução
+gp.tc.size = 1
+gp.tc.0 = ec.gp.GPTreeConstraints
+gp.tc.0.name = tc0
+gp.tc.0.fset = f0
+gp.tc.0.returns = string
+
+
+#Redefino o nc1
+gp.nc.1 = ec.gp.GPNodeConstraints
+gp.nc.1.name = nc1
+gp.nc.1.returns = string
+gp.nc.1.size = 1
+gp.nc.1.child.0 = string
+
+#Redefino o nc2
+gp.nc.2 = ec.gp.GPNodeConstraints
+gp.nc.2.name = nc2
+gp.nc.2.returns = string
+gp.nc.2.size = 2
+gp.nc.2.child.0 = inteiro
+gp.nc.2.child.1 = inteiro
+
+#redefino o nc3
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = nc3
+gp.nc.3.returns = inteiro
+gp.nc.3.size = 0
+
+#redefino o nc4
+gp.nc.4 = ec.gp.GPNodeConstraints
+gp.nc.4.name = nc4
+gp.nc.4.returns = string
+gp.nc.4.size = 0
+
+
+
+#Defino o Function Set
+gp.fs.size=1
+#FS do Escrever e Log
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.size = 5
+
+gp.fs.0.func.0 = ec.app.GETipado.Escrever
+gp.fs.0.func.0.nc = nc1
+
+gp.fs.0.func.1 = ec.app.GETipado.Salvarlog
+gp.fs.0.func.1.nc = nc1
+
+
+#FS da TREE SOMAR
+gp.fs.0.func.2 = ec.app.GETipado.X
+gp.fs.0.func.2.nc = nc3
+gp.fs.0.func.2.tree=1
+
+gp.fs.0.func.3 = ec.app.GETipado.Y
+gp.fs.0.func.3.nc = nc3
+gp.fs.0.func.3.tree=1
+
+gp.fs.0.func.4 = ec.app.GETipado.Somar
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.3.tree=1
+
+
+# Problema
+eval.problem = ec.app.GETipado.GETipadoProblem
+eval.problem.data = ec.app.GETipado.GETipadoData
+#fixo os valores para a soma
+eval.problem.currentX = 4
+eval.problem.currentY = 6
+
+#Mudo para simple Fit
+pop.subpop.0.species.fitness = ec.simple.SimpleFitness
+
+
+
