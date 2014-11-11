@@ -185,10 +185,24 @@ public class GEProblem extends Problem implements SimpleProblemForm, GroupedProb
             GPIndividual gpi = species.map(state, indiv, threadnum, null);
             if (gpi == null)
                 {
-                KozaFitness fitness = (KozaFitness) (ind.fitness);
-                fitness.setStandardizedFitness(state, Double.MAX_VALUE);
-                ind.fitness = fitness ;
-                ind.evaluated = true ;
+            	if(ind.fitness instanceof KozaFitness)
+            	{
+            		KozaFitness fitness = (KozaFitness) (ind.fitness);
+                    fitness.setStandardizedFitness(state, Double.MAX_VALUE);
+                    ind.fitness = fitness ;
+                    ind.evaluated = true ;
+            	}
+            	
+            	if(ind.fitness instanceof SimpleFitness)
+            	{
+            		SimpleFitness fitness = (SimpleFitness) (ind.fitness);
+                    fitness.setFitness(state, Double.MAX_VALUE, false );
+                    ind.fitness = fitness ;
+                    ind.evaluated = true ;
+            	}
+            		
+            		
+                
                 }
             else
                 {

@@ -59,25 +59,25 @@ public class GITesteProblem extends GPProblem implements SimpleProblemForm
 				
 				fitness = 1000000 - totalTime;
 				//fitness = 100.99;
-				//SimpleFitness f = ((SimpleFitness) ind.fitness);
-				 //f.setFitness(state, fitness, false);
-				//ind.evaluated = true;
+				SimpleFitness f = ((SimpleFitness) ind.fitness);
+				 f.setFitness(state, fitness, false);
+				ind.evaluated = true;
 				//fitness = totalTime  - 1.0;
-/*				ind.printIndividualForHumans(state, threadnum);
-				System.out.println("X=" + currentX );
-				System.out.println("Y=" + currentY );*/
+				//ind.printIndividualForHumans(state, threadnum);
+				//System.out.println("X=" + currentX );
+				//System.out.println("Y=" + currentY );
 			}
 			
 			// the fitness better be KozaFitness!
-	        KozaFitness f = ((KozaFitness)ind.fitness);
-	        f.setStandardizedFitness(state,(fitness));
+	        //KozaFitness f = ((KozaFitness)ind.fitness);
+	        //f.setStandardizedFitness(state,(fitness));
 	        //f.hits = Integer.parseInt(String.valueOf(totalTime));
 			
-			//ind.printIndividualForHumans(state, threadnum);
-			
-			 //SimpleFitness f = ((SimpleFitness) ind.fitness);
-			 //f.setFitness(state, fitness, false);
+			SimpleFitness f = ((SimpleFitness) ind.fitness);
+			f.setFitness(state, fitness, false);
 			ind.evaluated = true;
+			
+			ind.printIndividualForHumans(state, threadnum);
 		
 		}
 		

@@ -19,12 +19,14 @@ public class Somar extends GPNode {
         GITesteData rd = ((GITesteData)(input));
         children[0].eval(state,thread,input,stack,individual,problem);
         Integer resultado = rd.inteiro;
-        
-        children[1].eval(state,thread,input,stack,individual,problem);
-        resultado +=rd.inteiro;
-        
-        //Faz a soma
+
+    	children[1].eval(state,thread,input,stack,individual,problem);
+    	resultado += rd.inteiro;
+
+    	//Faz a soma
         rd.inteiro = resultado;
+
+        
     }
 
 }

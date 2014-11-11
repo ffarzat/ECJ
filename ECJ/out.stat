@@ -3,19 +3,28 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
--123 53 19 108 -105 -19 123 -104 34 -6 -107 -57 124 -71
+Fitness: 1.7976931348623157E308
+-12 -29 -116 103 91 -15
 Equivalent GP Individual:
-Tree 0:
- Y
+[BAD]
 ERCs: 
 
-Best Individual of Run:
+Generation: 1
+Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=0.0 Adjusted=1.0 Hits=0
--123 53 19 108 -105 -19 123 -104 34 -6 -107 -57 124 -71
+Fitness: 1.7976931348623157E308
+115 41 124 102 40 4 -98 -34 90 40 4 -98
 Equivalent GP Individual:
-Tree 0:
- Y
+[BAD]
+ERCs: 
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 1.7976931348623157E308
+-23 -10 96 114 -28 115 56 55 94 65 -49
+Equivalent GP Individual:
+[BAD]
 ERCs: 

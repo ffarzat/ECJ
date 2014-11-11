@@ -6,7 +6,7 @@ eval.problem = ec.gp.ge.GEProblem
 pop.subpop.0.species = ec.gp.ge.GESpecies
 pop.subpop.0.species.parser = ec.gp.ge.GrammarParser
 pop.subpop.0.species.gp-species = ec.gp.GPSpecies
-pop.subpop.0.species.fitness = ec.gp.koza.KozaFitness
+#pop.subpop.0.species.fitness = ec.gp.koza.KozaFitness
 pop.subpop.0.species.ind = ec.gp.ge.GEIndividual
 pop.subpop.0.species.min-gene = -128
 pop.subpop.0.species.max-gene = 127
@@ -53,35 +53,10 @@ gp.tc.size = 1
 gp.tc.0 = ec.gp.GPTreeConstraints
 gp.tc.0.name = tc0
 gp.tc.0.fset = f0
-gp.tc.0.returns = string
+gp.tc.0.returns = nil
 
 
-#Redefino o nc1
-gp.nc.1 = ec.gp.GPNodeConstraints
-gp.nc.1.name = nc1
-gp.nc.1.returns = string
-gp.nc.1.size = 1
-gp.nc.1.child.0 = string
 
-#Redefino o nc2
-gp.nc.2 = ec.gp.GPNodeConstraints
-gp.nc.2.name = nc2
-gp.nc.2.returns = string
-gp.nc.2.size = 2
-gp.nc.2.child.0 = inteiro
-gp.nc.2.child.1 = inteiro
-
-#redefino o nc3
-gp.nc.3 = ec.gp.GPNodeConstraints
-gp.nc.3.name = nc3
-gp.nc.3.returns = inteiro
-gp.nc.3.size = 0
-
-#redefino o nc4
-gp.nc.4 = ec.gp.GPNodeConstraints
-gp.nc.4.name = nc4
-gp.nc.4.returns = string
-gp.nc.4.size = 0
 
 
 
@@ -92,10 +67,10 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gp.fs.0.size = 5
 
 gp.fs.0.func.0 = ec.app.GITeste.X
-gp.fs.0.func.0.nc = nc3
+gp.fs.0.func.0.nc = nc0
 
 gp.fs.0.func.1 = ec.app.GITeste.Y
-gp.fs.0.func.1.nc = nc3
+gp.fs.0.func.1.nc = nc0
 
 gp.fs.0.func.2 = ec.app.GITeste.Somar
 gp.fs.0.func.2.nc = nc2
@@ -119,7 +94,8 @@ ge.species.file.0 = GITeste.grammar
 eval.problem.problem.currentX = 4
 eval.problem.problem.currentY = 6
 
-
+#Mudo para simple Fit
+pop.subpop.0.species.fitness = ec.simple.SimpleFitness
 
 
 
