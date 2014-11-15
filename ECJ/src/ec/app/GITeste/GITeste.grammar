@@ -2,5 +2,7 @@
 <Somar> ::= (Somar <inteiro> <inteiro>)
 <Escrever> ::= (Escrever <string>)
 <Salvarlog>::= (Salvarlog <string>)
-<string> ::= <start>
-<inteiro> ::= (X) | (Y)
+<string> ::= <Somar>
+<inteiro> ::= <X> | <Y>
+<X> ::= (X)
+<Y> ::= (Y)

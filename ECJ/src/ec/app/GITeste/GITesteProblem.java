@@ -44,40 +44,42 @@ public class GITesteProblem extends GPProblem implements SimpleProblemForm
             Integer total = currentX +currentY;
 
             
-			double fitness = 0.0;
-            
+			double fitness = 0.5;
+			input.inteiro = 0;
+			
 			long time = System.nanoTime();
             
 			((GPIndividual)ind).trees[0].child.eval(state, threadnum, input, stack, (GPIndividual) ind, this);
 			
 			long totalTime = (System.nanoTime() - time); 
 			
-			if(input.inteiro == total) //A soma bate? Aqui seria a execução de testes...
+			
+			if(input.inteiro == 10)
 			{	
-/*				if(totalTime == 0.0)
-					totalTime = 00001;*/
-				
-				fitness = 1000000 - totalTime;
-				//fitness = 100.99;
-				SimpleFitness f = ((SimpleFitness) ind.fitness);
-				 f.setFitness(state, fitness, false);
-				ind.evaluated = true;
-				//fitness = totalTime  - 1.0;
-				//ind.printIndividualForHumans(state, threadnum);
+				fitness = ((GPIndividual)ind).trees[0].child.children.length;
+				fitness = 10000 - fitness;
+
+				ind.printIndividualForHumans(state, threadnum);
+				System.out.println("fitness=" + fitness );
+
+
+				//System.out.println("(input.inteiro=" + input.inteiro );
+				//System.out.println("(total=" + total);
 				//System.out.println("X=" + currentX );
 				//System.out.println("Y=" + currentY );
 			}
 			
 			// the fitness better be KozaFitness!
-	        //KozaFitness f = ((KozaFitness)ind.fitness);
-	        //f.setStandardizedFitness(state,(fitness));
+/*	        KozaFitness f = ((KozaFitness)ind.fitness);
+	        f.setStandardizedFitness(state,(fitness));
+	        f.setFitness(state, fitness);*/
 	        //f.hits = Integer.parseInt(String.valueOf(totalTime));
 			
-			SimpleFitness f = ((SimpleFitness) ind.fitness);
-			f.setFitness(state, fitness, false);
+			SimpleFitness f = ((SimpleFitness)ind.fitness);
+			f.setFitness(state, fitness);
 			ind.evaluated = true;
 			
-			//ind.printIndividualForHumans(state, threadnum);
+			//
 		
 		}
 		
