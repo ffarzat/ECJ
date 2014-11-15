@@ -57,9 +57,6 @@ gp.tc.0.returns = nil
 
 
 
-
-
-
 #Defino o Function Set
 gp.fs.size=1
 #FS do Escrever e Log

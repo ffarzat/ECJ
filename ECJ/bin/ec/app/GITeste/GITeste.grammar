@@ -1,2 +1,6 @@
-<start> ::= <op>
-<op> ::= (X) | (Y)| (Somar <op> <op>) | (Escrever <op>) | (Salvarlog <op>)
+<start> ::= <Somar> | <Escrever> | <Salvarlog> 
+<Somar> ::= (Somar <inteiro> <inteiro>)
+<Escrever> ::= (Escrever <string>)
+<Salvarlog>::= (Salvarlog <string>)
+<string> ::= <start>
+<inteiro> ::= (X) | (Y)

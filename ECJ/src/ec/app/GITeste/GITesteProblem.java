@@ -77,7 +77,7 @@ public class GITesteProblem extends GPProblem implements SimpleProblemForm
 			f.setFitness(state, fitness, false);
 			ind.evaluated = true;
 			
-			ind.printIndividualForHumans(state, threadnum);
+			//ind.printIndividualForHumans(state, threadnum);
 		
 		}
 		
