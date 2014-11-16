@@ -6,7 +6,7 @@ eval.problem = ec.gp.ge.GEProblem
 pop.subpop.0.species = ec.gp.ge.GESpecies
 pop.subpop.0.species.parser = ec.gp.ge.GrammarParser
 pop.subpop.0.species.gp-species = ec.gp.GPSpecies
-#pop.subpop.0.species.fitness = ec.gp.koza.KozaFitness
+pop.subpop.0.species.fitness = ec.gp.koza.KozaFitness
 pop.subpop.0.species.ind = ec.gp.ge.GEIndividual
 pop.subpop.0.species.min-gene = -128
 pop.subpop.0.species.max-gene = 127
@@ -92,7 +92,7 @@ eval.problem.problem.currentX = 4
 eval.problem.problem.currentY = 6
 
 #Mudo para simple Fit
-pop.subpop.0.species.fitness = ec.simple.SimpleFitness
+#pop.subpop.0.species.fitness = ec.simple.SimpleFitness
 
 
 

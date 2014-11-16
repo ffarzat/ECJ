@@ -44,7 +44,7 @@ public class GITesteProblem extends GPProblem implements SimpleProblemForm
             Integer total = currentX +currentY;
 
             
-			double fitness = 0.5;
+			double fitness = 100000.0;
 			input.inteiro = 0;
 			
 			long time = System.nanoTime();
@@ -56,11 +56,13 @@ public class GITesteProblem extends GPProblem implements SimpleProblemForm
 			
 			if(input.inteiro == 10)
 			{	
-				fitness = ((GPIndividual)ind).trees[0].child.children.length;
-				fitness = 10000 - fitness;
+				//fitness = ((GPIndividual)ind).trees[0].child.children.length;
+				//fitness = 10000 - fitness;
 
-				ind.printIndividualForHumans(state, threadnum);
-				System.out.println("fitness=" + fitness );
+				fitness = totalTime ;
+				
+				//ind.printIndividualForHumans(state, threadnum);
+				//System.out.println("fitness=" + fitness );
 
 
 				//System.out.println("(input.inteiro=" + input.inteiro );
@@ -70,13 +72,12 @@ public class GITesteProblem extends GPProblem implements SimpleProblemForm
 			}
 			
 			// the fitness better be KozaFitness!
-/*	        KozaFitness f = ((KozaFitness)ind.fitness);
+	        KozaFitness f = ((KozaFitness)ind.fitness);
 	        f.setStandardizedFitness(state,(fitness));
-	        f.setFitness(state, fitness);*/
 	        //f.hits = Integer.parseInt(String.valueOf(totalTime));
 			
-			SimpleFitness f = ((SimpleFitness)ind.fitness);
-			f.setFitness(state, fitness);
+			//SimpleFitness f = ((SimpleFitness)ind.fitness);
+			//f.setFitness(state, fitness);
 			ind.evaluated = true;
 			
 			//
