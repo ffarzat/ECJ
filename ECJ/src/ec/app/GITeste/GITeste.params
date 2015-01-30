@@ -48,51 +48,218 @@ gp.type.a.1.name = string
 gp.type.a.2.name = nil
 
 
-#Defino a árvore de execução
+#Defino a arvore de execucao
 gp.tc.size = 1
 gp.tc.0 = ec.gp.GPTreeConstraints
 gp.tc.0.name = tc0
 gp.tc.0.fset = f0
 gp.tc.0.returns = nil
 
-
-
-#Defino o Function Set
-gp.fs.size=1
-#FS do Escrever e Log
-gp.fs.0 = ec.gp.GPFunctionSet
-gp.fs.0.size = 5
-
-gp.fs.0.func.0 = ec.app.GITeste.X
-gp.fs.0.func.0.nc = nc0
-
-gp.fs.0.func.1 = ec.app.GITeste.Y
-gp.fs.0.func.1.nc = nc0
-
-gp.fs.0.func.2 = ec.app.GITeste.Somar
-gp.fs.0.func.2.nc = nc2
-
-gp.fs.0.func.3 = ec.app.GITeste.Escrever
-gp.fs.0.func.3.nc = nc1
-
-gp.fs.0.func.4 = ec.app.GITeste.Salvarlog
-gp.fs.0.func.4.nc = nc1
-
-
 # Problema
 eval.problem.problem = ec.app.GITeste.GITesteProblem
 eval.problem.problem.data = ec.app.GITeste.GITesteData
 
 #Gramatica
-ge.species.file.0 = GITeste.grammar
-
-
-#fixo os valores para a soma
-eval.problem.problem.currentX = 4
-eval.problem.problem.currentY = 6
-
-#Mudo para simple Fit
-#pop.subpop.0.species.fitness = ec.simple.SimpleFitness
+ge.species.file.0 = C:\Users\Fabio\Documents\GitHub\JavascriptParser\ConsoleApplication1\bin\Debug\angular.js.grammar
 
 
 
+#Defino o Function Set
+gp.fs.size=1
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.size = 97
+
+gp.fs.0.func.0 = jsonFilter
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = limitToFilter
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = orderByFilter
+gp.fs.0.func.2.nc = nc1
+gp.fs.0.func.3 = comparator
+gp.fs.0.func.3.nc = nc2
+gp.fs.0.func.4 = reverseComparator
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = isPrimitive
+gp.fs.0.func.5.nc = nc1
+gp.fs.0.func.6 = objectToString
+gp.fs.0.func.6.nc = nc1
+gp.fs.0.func.7 = compare
+gp.fs.0.func.7.nc = nc2
+gp.fs.0.func.8 = ngDirective
+gp.fs.0.func.8.nc = nc1
+gp.fs.0.func.9 = ngBooleanAttrWatchAction
+gp.fs.0.func.9.nc = nc1
+gp.fs.0.func.10 = ngAttrAliasWatchAction
+gp.fs.0.func.10.nc = nc1
+gp.fs.0.func.11 = nullFormRenameControl
+gp.fs.0.func.11.nc = nc2
+gp.fs.0.func.12 = FormController
+gp.fs.0.func.12.nc = nc5
+gp.fs.0.func.13 = ngFormCompile
+gp.fs.0.func.13.nc = nc1
+gp.fs.0.func.14 = ngFormPreLink
+gp.fs.0.func.14.nc = nc4
+gp.fs.0.func.15 = stringBasedInputType
+gp.fs.0.func.15.nc = nc1
+gp.fs.0.func.16 = textInputType
+gp.fs.0.func.16.nc = nc6
+gp.fs.0.func.17 = baseInputType
+gp.fs.0.func.17.nc = nc6
+gp.fs.0.func.18 = weekParser
+gp.fs.0.func.18.nc = nc2
+gp.fs.0.func.19 = createDateParser
+gp.fs.0.func.19.nc = nc2
+gp.fs.0.func.20 = createDateInputType
+gp.fs.0.func.20.nc = nc4
+gp.fs.0.func.21 = dynamicDateInputType
+gp.fs.0.func.21.nc = nc7
+gp.fs.0.func.22 = isValidDate
+gp.fs.0.func.22.nc = nc1
+gp.fs.0.func.23 = parseObservedDateValue
+gp.fs.0.func.23.nc = nc1
+gp.fs.0.func.24 = badInputChecker
+gp.fs.0.func.24.nc = nc4
+gp.fs.0.func.25 = numberInputType
+gp.fs.0.func.25.nc = nc6
+gp.fs.0.func.26 = urlInputType
+gp.fs.0.func.26.nc = nc6
+gp.fs.0.func.27 = emailInputType
+gp.fs.0.func.27.nc = nc6
+gp.fs.0.func.28 = radioInputType
+gp.fs.0.func.28.nc = nc4
+gp.fs.0.func.29 = parseConstantExpr
+gp.fs.0.func.29.nc = nc5
+gp.fs.0.func.30 = checkboxInputType
+gp.fs.0.func.30.nc = nc8
+gp.fs.0.func.31 = ngValueConstantLink
+gp.fs.0.func.31.nc = nc3
+gp.fs.0.func.32 = ngValueLink
+gp.fs.0.func.32.nc = nc3
+gp.fs.0.func.33 = valueWatchAction
+gp.fs.0.func.33.nc = nc1
+gp.fs.0.func.34 = ngBindCompile
+gp.fs.0.func.34.nc = nc1
+gp.fs.0.func.35 = ngBindLink
+gp.fs.0.func.35.nc = nc3
+gp.fs.0.func.36 = ngBindWatchAction
+gp.fs.0.func.36.nc = nc1
+gp.fs.0.func.37 = ngBindTemplateCompile
+gp.fs.0.func.37.nc = nc1
+gp.fs.0.func.38 = ngBindTemplateLink
+gp.fs.0.func.38.nc = nc3
+gp.fs.0.func.39 = ngBindHtmlCompile
+gp.fs.0.func.39.nc = nc2
+gp.fs.0.func.40 = getStringValue
+gp.fs.0.func.40.nc = nc1
+gp.fs.0.func.41 = ngBindHtmlLink
+gp.fs.0.func.41.nc = nc3
+gp.fs.0.func.42 = ngBindHtmlWatchAction
+gp.fs.0.func.42.nc = nc0
+gp.fs.0.func.43 = classDirective
+gp.fs.0.func.43.nc = nc2
+gp.fs.0.func.44 = addClasses
+gp.fs.0.func.44.nc = nc1
+gp.fs.0.func.45 = removeClasses
+gp.fs.0.func.45.nc = nc1
+gp.fs.0.func.46 = digestClassCounts
+gp.fs.0.func.46.nc = nc2
+gp.fs.0.func.47 = updateClasses
+gp.fs.0.func.47.nc = nc2
+gp.fs.0.func.48 = ngClassWatchAction
+gp.fs.0.func.48.nc = nc1
+gp.fs.0.func.49 = arrayDifference
+gp.fs.0.func.49.nc = nc2
+gp.fs.0.func.50 = arrayClasses
+gp.fs.0.func.50.nc = nc1
+gp.fs.0.func.51 = ngEventHandler
+gp.fs.0.func.51.nc = nc2
+gp.fs.0.func.52 = ngIfWatchAction
+gp.fs.0.func.52.nc = nc1
+gp.fs.0.func.53 = ngIncludeWatchAction
+gp.fs.0.func.53.nc = nc1
+gp.fs.0.func.54 = namespaceAdaptedClone
+gp.fs.0.func.54.nc = nc1
+gp.fs.0.func.55 = processParseErrors
+gp.fs.0.func.55.nc = nc1
+gp.fs.0.func.56 = processSyncValidators
+gp.fs.0.func.56.nc = nc0
+gp.fs.0.func.57 = processAsyncValidators
+gp.fs.0.func.57.nc = nc0
+gp.fs.0.func.58 = setValidity
+gp.fs.0.func.58.nc = nc2
+gp.fs.0.func.59 = validationDone
+gp.fs.0.func.59.nc = nc1
+gp.fs.0.func.60 = writeToModelIfNeeded
+gp.fs.0.func.60.nc = nc0
+gp.fs.0.func.61 = ngModelWatch
+gp.fs.0.func.61.nc = nc0
+gp.fs.0.func.62 = ngModelCompile
+gp.fs.0.func.62.nc = nc1
+gp.fs.0.func.63 = ngModelPreLink
+gp.fs.0.func.63.nc = nc4
+gp.fs.0.func.64 = ngModelPostLink
+gp.fs.0.func.64.nc = nc4
+gp.fs.0.func.65 = addSetValidityMethod
+gp.fs.0.func.65.nc = nc1
+gp.fs.0.func.66 = setValidity
+gp.fs.0.func.66.nc = nc3
+gp.fs.0.func.67 = createAndSet
+gp.fs.0.func.67.nc = nc3
+gp.fs.0.func.68 = unsetAndCleanup
+gp.fs.0.func.68.nc = nc3
+gp.fs.0.func.69 = cachedToggleClass
+gp.fs.0.func.69.nc = nc2
+gp.fs.0.func.70 = toggleValidationCss
+gp.fs.0.func.70.nc = nc2
+gp.fs.0.func.71 = isObjectEmpty
+gp.fs.0.func.71.nc = nc1
+gp.fs.0.func.72 = ngPluralizeWatchAction
+gp.fs.0.func.72.nc = nc1
+gp.fs.0.func.73 = updateElementText
+gp.fs.0.func.73.nc = nc1
+gp.fs.0.func.74 = ngRepeatCompile
+gp.fs.0.func.74.nc = nc2
+gp.fs.0.func.75 = ngRepeatLink
+gp.fs.0.func.75.nc = nc5
+gp.fs.0.func.76 = ngRepeatAction
+gp.fs.0.func.76.nc = nc1
+gp.fs.0.func.77 = ngRepeatTransclude
+gp.fs.0.func.77.nc = nc2
+gp.fs.0.func.78 = ngShowWatchAction
+gp.fs.0.func.78.nc = nc1
+gp.fs.0.func.79 = ngHideWatchAction
+gp.fs.0.func.79.nc = nc1
+gp.fs.0.func.80 = ngStyleWatchAction
+gp.fs.0.func.80.nc = nc2
+gp.fs.0.func.81 = ngSwitchController
+gp.fs.0.func.81.nc = nc0
+gp.fs.0.func.82 = ngSwitchWatchAction
+gp.fs.0.func.82.nc = nc1
+gp.fs.0.func.83 = setupAsSingle
+gp.fs.0.func.83.nc = nc4
+gp.fs.0.func.84 = setupAsMultiple
+gp.fs.0.func.84.nc = nc3
+gp.fs.0.func.85 = selectMultipleWatch
+gp.fs.0.func.85.nc = nc0
+gp.fs.0.func.86 = setupAsOptions
+gp.fs.0.func.86.nc = nc3
+gp.fs.0.func.87 = callExpression
+gp.fs.0.func.87.nc = nc3
+gp.fs.0.func.88 = selectionChanged
+gp.fs.0.func.88.nc = nc0
+gp.fs.0.func.89 = getViewValue
+gp.fs.0.func.89.nc = nc2
+gp.fs.0.func.90 = getLabels
+gp.fs.0.func.90.nc = nc0
+gp.fs.0.func.91 = createIsSelectedFn
+gp.fs.0.func.91.nc = nc1
+gp.fs.0.func.92 = isSelected
+gp.fs.0.func.92.nc = nc2
+gp.fs.0.func.93 = scheduleRendering
+gp.fs.0.func.93.nc = nc0
+gp.fs.0.func.94 = updateLabelMap
+gp.fs.0.func.94.nc = nc3
+gp.fs.0.func.95 = render
+gp.fs.0.func.95.nc = nc0
+gp.fs.0.func.96 = interpolateWatchAction
+gp.fs.0.func.96.nc = nc2

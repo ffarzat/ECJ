@@ -210,7 +210,7 @@ gp.koza.half.growp = 0.5
 # You don't need to include the class declarations with everything
 # else below, but it quiets warnings
 
-gp.nc.size = 7
+gp.nc.size = 9
 
 gp.nc.0 = ec.gp.GPNodeConstraints
 gp.nc.0.name = nc0
@@ -267,6 +267,31 @@ gp.nc.6.child.2 = nil
 gp.nc.6.child.3 = nil
 gp.nc.6.child.4 = nil
 gp.nc.6.child.5 = nil
+
+gp.nc.7 = ec.gp.GPNodeConstraints
+gp.nc.7.name = nc7
+gp.nc.7.returns = nil
+gp.nc.7.size = 7
+gp.nc.7.child.0 = nil
+gp.nc.7.child.1 = nil
+gp.nc.7.child.2 = nil
+gp.nc.7.child.3 = nil
+gp.nc.7.child.4 = nil
+gp.nc.7.child.5 = nil
+gp.nc.7.child.6 = nil
+
+gp.nc.8 = ec.gp.GPNodeConstraints
+gp.nc.8.name = nc8
+gp.nc.8.returns = nil
+gp.nc.8.size = 8
+gp.nc.8.child.0 = nil
+gp.nc.8.child.1 = nil
+gp.nc.8.child.2 = nil
+gp.nc.8.child.3 = nil
+gp.nc.8.child.4 = nil
+gp.nc.8.child.5 = nil
+gp.nc.8.child.6 = nil
+gp.nc.8.child.7 = nil
 
 
 
