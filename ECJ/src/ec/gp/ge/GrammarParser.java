@@ -206,6 +206,7 @@ public class GrammarParser implements Prototype
                         + retResult.getHead() + " Error: " + token);
                 else
                     {
+                	
                     if (!(gpfs.nodesByName.containsKey(token)))
                         state.output.fatal("GPNode " + token 
                             + " is not defined in the function set.");
@@ -236,22 +237,30 @@ public class GrammarParser implements Prototype
 
     /** Parses the rules from a grammar and returns the resulting GrammarRuleNode root. */
     public GrammarRuleNode parseRules(EvolutionState state, BufferedReader reader, GPFunctionSet gpfs)
-        {
+    {
         rules = new HashMap();
+        
         try
-            {
+        {
             String line;
+            
             while ((line = reader.readLine()) != null)
-                {
-                GrammarRuleNode rule = parseRule(state, 
-                    new Lexer(line.trim(), DEFAULT_REGEXES), gpfs);
-                if (rule != null && root == null) root = rule;
-                }
+            {
+                GrammarRuleNode rule = parseRule(state, new Lexer(line.trim(), DEFAULT_REGEXES), gpfs);
+                
+                if (rule != null && root == null) 
+                	root = rule;
             }
-        catch (IOException e) { } // do nothing
-        state.output.exitIfErrors();
-        return root;
         }
+        catch (IOException e) 
+        { 
+        	// do nothing
+        } 
+        
+        state.output.exitIfErrors();
+        
+        return root;
+    }
 
     public String toString()
         {
@@ -459,10 +468,9 @@ public class GrammarParser implements Prototype
             ArrayList functionHeads = (ArrayList)pairs.getValue();
             for(int i = 0 ; i < functionHeads.size(); i++)
                 {
-                String functionHead = (String)functionHeads.get(i);
-                int functionHeadIndex = ((Integer)functionHeadToIndex.get(functionHead)).intValue();
-                predictiveParseTable[ruleIndex][functionHeadIndex] 
-                    = ((Integer)ruleToIndex.get(action)).intValue() ;
+                	String functionHead = (String)functionHeads.get(i);
+                	int functionHeadIndex = ((Integer)functionHeadToIndex.get(functionHead)).intValue();
+                	predictiveParseTable[ruleIndex][functionHeadIndex] = ((Integer)ruleToIndex.get(action)).intValue() ;
                 }
             }
         }

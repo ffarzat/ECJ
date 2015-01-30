@@ -1,4 +1,4 @@
-﻿package ec.app.angularjs;
+package ec.app.angularjs;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +22,7 @@ import ec.gp.GPIndividual;
 
 public class parseConstantExpr extends GPNode {
 
-	public String toString() { return " parseConstantExpr"; }
+	public String toString() { return "parseConstantExpr"; }
     
 
 	public void eval(final EvolutionState state, final int thread, final GPData input, final ADFStack stack, final GPIndividual individual, final Problem problem)
