@@ -154,10 +154,9 @@ public class GrammarParser implements Prototype
             {
             lexer.nextToken();
             if(lexer.getMatchingIndex() != EQUALS)
-                state.output.fatal("GE Grammar Error: " 
-                    + "Expecting equal sign after rule head: " + token);
-            retResult = getRule(rules, token);
-            parseProductions(state, retResult, lexer, gpfs);
+                state.output.fatal("GE Grammar Error: "  + "Expecting equal sign after rule head: " + token);
+            	retResult = getRule(rules, token);
+            	parseProductions(state, retResult, lexer, gpfs);
             }
         else
             {
