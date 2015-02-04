@@ -354,14 +354,8 @@ public class GrammarParser implements Prototype
                     q.add(child);
                     }
                 else if(child instanceof GrammarFunctionNode)
-                	{
                 		functionHeadToIndex.put(child.getHead(), fIndex++);
-                		System.out.println(child.toString() + ": " + fIndex);
-                		System.out.println("functionHeadToIndex.values().size() : " + functionHeadToIndex.values().size());
-                		System.out.println("functionHeadToIndex: " + functionHeadToIndex.size());
-                    	
-                	}
-                }
+               }
             }
         
         
