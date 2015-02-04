@@ -5,7 +5,7 @@
 	<classpathentry kind="lib" path="../jfreechart-1.0.19/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
 	<classpathentry kind="lib" path="../itext-4.2.1.jar"/>
 	<classpathentry kind="lib" path="../jfreechart-1.0.19/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Fabio/Documents/GitHub/ECJ/jline.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Fabio/Documents/GitHub/ECJ/js.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/ECJ/jline.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/ECJ/js.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,0 +1,111 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-30 106 15 65 24 73 8 82 104 121
+Equivalent GP Individual:
+Tree 0:
+ limitToFilter
+ERCs: 
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+50 22
+Equivalent GP Individual:
+Tree 0:
+ ngSwitchController
+ERCs: 
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-51 14 25 -52
+Equivalent GP Individual:
+Tree 0:
+ (ngRepeatTransclude_2 clone scope)
+ERCs: 
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+47 33 -108
+Equivalent GP Individual:
+Tree 0:
+ (ngShowWatchAction_1 value)
+ERCs: 
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+70 107 34 -95
+Equivalent GP Individual:
+Tree 0:
+ (reverseComparator_2 comp descending)
+ERCs: 
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+45 -74 43
+Equivalent GP Individual:
+Tree 0:
+ (ngRepeatAction_1 collection)
+ERCs: 
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+36 -121 -30 -12 -82
+Equivalent GP Individual:
+Tree 0:
+ (createAndSet_3 name value options)
+ERCs: 
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-18 -20 -126
+Equivalent GP Individual:
+Tree 0:
+ (ngFormCompile_1 formElement)
+ERCs: 
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+109 72 86 -80
+Equivalent GP Individual:
+Tree 0:
+ (classDirective_2 name selector)
+ERCs: 
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-53 54 -118 -56 -81 -7 69
+Equivalent GP Individual:
+Tree 0:
+ (ngRepeatLink_5 $scope $element $attr ctrl
+     $transclude)
+ERCs: 

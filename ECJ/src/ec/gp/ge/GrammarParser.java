@@ -354,9 +354,18 @@ public class GrammarParser implements Prototype
                     q.add(child);
                     }
                 else if(child instanceof GrammarFunctionNode)
-                    functionHeadToIndex.put(child.getHead(), fIndex++);
+                	{
+                		functionHeadToIndex.put(child.getHead(), fIndex++);
+                		System.out.println(child.toString() + ": " + fIndex);
+                		System.out.println("functionHeadToIndex.values().size() : " + functionHeadToIndex.values().size());
+                		System.out.println("functionHeadToIndex: " + functionHeadToIndex.size());
+                    	
+                	}
                 }
             }
+        
+        
+        
         // Now to the absolute index to relative index mapping
         String oldHead = ((GrammarNode)indexToRule.get(Integer.valueOf(0))).getHead();
         absIndexToRelIndex.put(new Integer(0), new Integer(0));
