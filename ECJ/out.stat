@@ -3,576 +3,572 @@ Generation: 0
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--85 72 -65 74 113 -113
+Fitness: Standardized=617078.0 Adjusted=1.6205380510437076E-6 Hits=0
+-60 4 -66 -82 -117 9 32 -89 -82 71 -69 97
 Equivalent GP Individual:
 Tree 0:
- (classDirective_2 name selector)
+ (unsetAndCleanup_3 name value options)
 ERCs: 
 
 Generation: 1
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-73 48 64 5 33 110 115 -3 -82 -101 -30 -51 78 41 17 89 21 4 123 98 58 118
+Fitness: Standardized=589709.0 Adjusted=1.6957487578640349E-6 Hits=0
+52 7 98 -118 125 -15
 Equivalent GP Individual:
 Tree 0:
- (compare_2 v1 v2)
+ (setupAsSingle_4 scope selectElement ngModelCtrl
+     selectCtrl)
 ERCs: 
 
 Generation: 2
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-6 -7 -42
+Fitness: Standardized=580302.0 Adjusted=1.7232376878975293E-6 Hits=0
+25 76
 Equivalent GP Individual:
 Tree 0:
- (ngBindTemplateCompile_1 templateElement)
+ processSyncValidators
 ERCs: 
 
 Generation: 3
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--40 103
+Fitness: Standardized=578591.0 Adjusted=1.7283336098667109E-6 Hits=0
+118 -72 -61
 Equivalent GP Individual:
 Tree 0:
- selectionChanged
+ (ngIfWatchAction_1 value)
 ERCs: 
 
 Generation: 4
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--18 84 58
+Fitness: Standardized=582012.0 Adjusted=1.7181746799470115E-6 Hits=0
+-55 44 81
 Equivalent GP Individual:
 Tree 0:
- (ngFormCompile_1 formElement)
+ (updateElementText_1 newText)
 ERCs: 
 
 Generation: 5
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-1 -63 -35 70 89
+Fitness: Standardized=587144.0 Adjusted=1.7031568011308962E-6 Hits=0
+-128 -14
 Equivalent GP Individual:
 Tree 0:
- (ngValueLink_3 scope elm attr)
+ jsonFilter
 ERCs: 
 
 Generation: 6
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-22 -24 28
+Fitness: Standardized=578163.0 Adjusted=1.7296130509682375E-6 Hits=0
+-76 11 -122
 Equivalent GP Individual:
 Tree 0:
- (ngIncludeWatchAction_1 src)
+ (ngIfWatchAction_1 value)
 ERCs: 
 
 Generation: 7
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-90 88 -112 112 50 111
+Fitness: Standardized=575597.0 Adjusted=1.7373236182196602E-6 Hits=0
+-62 -67 -10 -37 104
 Equivalent GP Individual:
 Tree 0:
- (badInputChecker_4 scope element attr ctrl)
+ (setValidity_3 validationErrorKey state options)
 ERCs: 
 
 Generation: 8
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--32 100 13 98
+Fitness: Standardized=575170.0 Adjusted=1.7386133862799063E-6 Hits=0
+-111 -128 -71 91 17 15 48 -112
 Equivalent GP Individual:
 Tree 0:
- (interpolateWatchAction_2 newVal oldVal)
+ (baseInputType_6 scope element attr ctrl
+     $sniffer $browser)
 ERCs: 
 
 Generation: 9
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--49 -42 -20
+Fitness: Standardized=579018.0 Adjusted=1.727059042967502E-6 Hits=0
+9 5 86
 Equivalent GP Individual:
 Tree 0:
- (ngHideWatchAction_1 value)
+ (getStringValue_1 value)
 ERCs: 
 
 Generation: 10
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--56 11 81
+Fitness: Standardized=584150.0 Adjusted=1.7118861390291209E-6 Hits=0
+48 -73 -110
 Equivalent GP Individual:
 Tree 0:
- (ngPluralizeWatchAction_1 newVal)
+ (ngHideWatchAction_1 value)
 ERCs: 
 
 Generation: 11
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-92 -29 -44 -1 59 56 -126 3
+Fitness: Standardized=578590.0 Adjusted=1.7283365970089408E-6 Hits=0
+118 -72 -61
 Equivalent GP Individual:
 Tree 0:
- (urlInputType_6 scope element attr ctrl $sniffer
-     $browser)
+ (ngIfWatchAction_1 value)
 ERCs: 
 
 Generation: 12
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-37 -76 55 19 43
+Fitness: Standardized=576880.0 Adjusted=1.7334597603318535E-6 Hits=0
+-111 -128 -71 91 17 15 48 -112
 Equivalent GP Individual:
 Tree 0:
- (unsetAndCleanup_3 name value options)
+ (baseInputType_6 scope element attr ctrl
+     $sniffer $browser)
 ERCs: 
 
 Generation: 13
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-79 -36 44
+Fitness: Standardized=586288.0 Adjusted=1.7056434625244546E-6 Hits=0
+88 113 -8
 Equivalent GP Individual:
 Tree 0:
- (ngFormCompile_1 formElement)
+ (isValidDate_1 value)
 ERCs: 
 
 Generation: 14
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--92 36 33
+Fitness: Standardized=590137.0 Adjusted=1.6945189091365071E-6 Hits=0
+88 113 -8
 Equivalent GP Individual:
 Tree 0:
- (ngBindWatchAction_1 value)
+ (isValidDate_1 value)
 ERCs: 
 
 Generation: 15
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--116 -44 -51 -110 -7 42 -42
+Fitness: Standardized=578163.0 Adjusted=1.7296130509682375E-6 Hits=0
+12 -38 2 13
 Equivalent GP Individual:
 Tree 0:
- (FormController_5 element attrs $scope $animate
-     $interpolate)
+ (classDirective_2 name selector)
 ERCs: 
 
 Generation: 16
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--33 97
+Fitness: Standardized=579446.0 Adjusted=1.7257833762190502E-6 Hits=0
+-87 83 -111 42 95
 Equivalent GP Individual:
 Tree 0:
- render
+ (ngBindHtmlLink_3 scope element attr)
 ERCs: 
 
 Generation: 17
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--108 -107 24 14 -64 95
+Fitness: Standardized=595268.0 Adjusted=1.6799127789285181E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (createDateInputType_4 type regexp parseDate
-     format)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 18
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--89 -99 27 24
+Fitness: Standardized=580301.0 Adjusted=1.7232406574507755E-6 Hits=0
+-9 -102 -44
 Equivalent GP Individual:
 Tree 0:
- (ngBindHtmlCompile_2 tElement tAttrs)
+ (isValidDate_1 value)
 ERCs: 
 
 Generation: 19
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--118 -61 45
+Fitness: Standardized=574314.0 Adjusted=1.741204739559301E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngAttrAliasWatchAction_1 value)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 20
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--42 -88 62 16 -79 -42 -88 62
+Fitness: Standardized=608525.0 Adjusted=1.6433151582676829E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (setupAsOptions_3 scope selectElement ctrl)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 21
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--33 97 97
+Fitness: Standardized=587999.0 Adjusted=1.7006802721088436E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- render
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 22
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--55 38 -8
+Fitness: Standardized=582011.0 Adjusted=1.7181776320763146E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (updateElementText_1 newText)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 23
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--127 -11
+Fitness: Standardized=577307.0 Adjusted=1.7321776244223188E-6 Hits=0
+-76 11 -122
 Equivalent GP Individual:
 Tree 0:
- limitToFilter
+ (ngIfWatchAction_1 value)
 ERCs: 
 
 Generation: 24
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-37 61 121 64 -43
+Fitness: Standardized=575597.0 Adjusted=1.7373236182196602E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (unsetAndCleanup_3 name value options)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 25
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--9 67 -70
+Fitness: Standardized=572604.0 Adjusted=1.7464045895512613E-6 Hits=0
+-76 11 -122 11 -122
 Equivalent GP Individual:
 Tree 0:
- (isValidDate_1 value)
+ (ngIfWatchAction_1 value)
 ERCs: 
 
 Generation: 26
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-66 -72
+Fitness: Standardized=573032.0 Adjusted=1.7451001949276918E-6 Hits=0
+68 67 69 68 67 69
 Equivalent GP Individual:
 Tree 0:
- jsonFilter
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 27
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--47 -45
+Fitness: Standardized=574314.0 Adjusted=1.741204739559301E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- ngSwitchController
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 28
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--82 112 -38 -113
+Fitness: Standardized=570038.0 Adjusted=1.7542659361903308E-6 Hits=0
+68 67 69 68 67
 Equivalent GP Individual:
 Tree 0:
- (digestClassCounts_2 classes count)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 29
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--55 38 -8
+Fitness: Standardized=569610.0 Adjusted=1.755584074043514E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (updateElementText_1 newText)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 30
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--33 97
+Fitness: Standardized=570466.0 Adjusted=1.752949776235961E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- render
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 31
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--121 -76 -28 96
+Fitness: Standardized=570037.0 Adjusted=1.7542690136447043E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (compare_2 v1 v2)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 32
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-49 76 27 -51
+Fitness: Standardized=570893.0 Adjusted=1.7516386579645258E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngStyleWatchAction_2 newStyles oldStyles)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 33
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-93 -19 -44 76 -121 84 0 89
+Fitness: Standardized=568755.0 Adjusted=1.75822320995295E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (emailInputType_6 scope element attr ctrl
-     $sniffer $browser)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 34
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--108 -107 24 14 -64 95
+Fitness: Standardized=573031.0 Adjusted=1.7451032403076965E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (createDateInputType_4 type regexp parseDate
-     format)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 35
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--92 36 33
+Fitness: Standardized=577735.0 Adjusted=1.7308943877480371E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngBindWatchAction_1 value)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 36
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-62 -15
+Fitness: Standardized=570893.0 Adjusted=1.7516386579645258E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- scheduleRendering
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 37
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--76 75 -22
+Fitness: Standardized=591848.0 Adjusted=1.6896201564926188E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngIfWatchAction_1 value)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 38
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--108 -107 24 14 -64 95
+Fitness: Standardized=580301.0 Adjusted=1.7232406574507755E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (createDateInputType_4 type regexp parseDate
-     format)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 39
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--121 -76 -28 96
+Fitness: Standardized=570038.0 Adjusted=1.7542659361903308E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (compare_2 v1 v2)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 40
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--76 75 -22
+Fitness: Standardized=569182.0 Adjusted=1.7569041942573829E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngIfWatchAction_1 value)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 41
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--92 36 33
+Fitness: Standardized=569611.0 Adjusted=1.7555809919734837E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngBindWatchAction_1 value)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 42
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--47 -45 -47
+Fitness: Standardized=573459.0 Adjusted=1.7438007881979563E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- ngSwitchController
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 43
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-89 98 34
+Fitness: Standardized=572176.0 Adjusted=1.7477109356020951E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (parseObservedDateValue_1 val)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 44
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--47 -24
+Fitness: Standardized=578591.0 Adjusted=1.7283336098667109E-6 Hits=0
+68 67 69 69
 Equivalent GP Individual:
 Tree 0:
- ngSwitchController
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 45
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--51 5 -93 78
+Fitness: Standardized=573031.0 Adjusted=1.7451032403076965E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngRepeatTransclude_2 clone scope)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 46
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-31 104 94
+Fitness: Standardized=573886.0 Adjusted=1.742503315112557E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (ngModelCompile_1 element)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 47
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--19 -57 33 37 -82 -88 -124 -82 -88 -124
+Fitness: Standardized=575597.0 Adjusted=1.7373236182196602E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (FormController_5 element attrs $scope $animate
-     $interpolate)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 48
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--33 97 -33 97
+Fitness: Standardized=576024.0 Adjusted=1.7360357623367042E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- render
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 49
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-89 98 34
+Fitness: Standardized=571749.0 Adjusted=1.7490161783996502E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (parseObservedDateValue_1 val)
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Generation: 50
 Best Individual:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
-62 -15
+Fitness: Standardized=573459.0 Adjusted=1.7438007881979563E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- scheduleRendering
+ (orderByFilter_1 $parse)
 ERCs: 
 
 Best Individual of Run:
 Subpopulation 0:
 Evaluated: T
-Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
--85 72 -65 74 113 -113
+Fitness: Standardized=568755.0 Adjusted=1.75822320995295E-6 Hits=0
+68 67 69
 Equivalent GP Individual:
 Tree 0:
- (classDirective_2 name selector)
+ (orderByFilter_1 $parse)
 ERCs: 

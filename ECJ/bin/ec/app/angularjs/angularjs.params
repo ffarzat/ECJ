@@ -56,7 +56,7 @@ gp.tc.0.fset = f0
 gp.tc.0.returns = nil
 
 # Problema
-eval.problem.problem = ec.app.GITeste.GITesteProblem
+eval.problem.problem = ec.app.angularjs.Problem
 eval.problem.problem.data = ec.app.GITeste.GITesteData
 
 #Gramatica
