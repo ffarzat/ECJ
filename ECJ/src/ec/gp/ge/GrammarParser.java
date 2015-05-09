@@ -468,7 +468,7 @@ public class GrammarParser implements Prototype
             String ruleHead = action.getHead();
             int ruleIndex = ((Integer)ruleHeadToIndex.get(ruleHead)).intValue();
             ArrayList functionHeads = (ArrayList)pairs.getValue();
-            for(int i = 0 ; i < functionHeads.size(); i++)
+            for(int i = 1 ; i < functionHeads.size(); i++)
                 {
                 	String functionHead = (String)functionHeads.get(i);
                 	int functionHeadIndex = ((Integer)functionHeadToIndex.get(functionHead)).intValue();
