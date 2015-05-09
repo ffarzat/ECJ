@@ -108,3 +108,135 @@ Equivalent GP Individual:
 Tree 0:
 escreverNaTela_1(texto)
 ERCs: 
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-84 93 -109
+Equivalent GP Individual:
+Tree 0:
+escreverNaTela_1(texto)
+ERCs: 
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+117 124 5
+Equivalent GP Individual:
+Tree 0:
+escreverNaTela_1(texto)
+ERCs: 
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-100 -123 -46 92
+Equivalent GP Individual:
+Tree 0:
+ldMes DeterminarQuantidadeDeDias_2 ldAno
+ERCs: 
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-94 44 88 -100
+Equivalent GP Individual:
+Tree 0:
+ldMes DeterminarQuantidadeDeDias_2 ldAno
+ERCs: 
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+117 124 5
+Equivalent GP Individual:
+Tree 0:
+escreverNaTela_1(texto)
+ERCs: 
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+35 -74 -5 9
+Equivalent GP Individual:
+Tree 0:
+ldMes DeterminarQuantidadeDeDias_2 ldAno
+ERCs: 
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+50 -110 -126 72
+Equivalent GP Individual:
+Tree 0:
+ldMes DeterminarQuantidadeDeDias_2 ldAno
+ERCs: 
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-94 44 88 -100
+Equivalent GP Individual:
+Tree 0:
+ldMes DeterminarQuantidadeDeDias_2 ldAno
+ERCs: 
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+51 -82 -58
+Equivalent GP Individual:
+Tree 0:
+escreverNaTela_1(texto)
+ERCs: 
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+72 -88 -10
+Equivalent GP Individual:
+Tree 0:
+escreverNaTela_1(texto)
+ERCs: 
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-37 -93 62 100
+Equivalent GP Individual:
+Tree 0:
+ldMes DeterminarQuantidadeDeDias_2 ldAno
+ERCs: 
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: Standardized=100000.0 Adjusted=9.99990000099999E-6 Hits=0
+-54 -112 89
+Equivalent GP Individual:
+Tree 0:
+escreverNaTela_1(texto)
+ERCs: 
