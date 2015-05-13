@@ -85,7 +85,7 @@ public class Problem extends GPProblem implements SimpleProblemForm
 				
 		if (!ind.evaluated) 
 		{
-			double fitness = 100000.0;
+			double fitness = 0.0;
 			
 			
 			long time = System.nanoTime();
@@ -101,7 +101,7 @@ public class Problem extends GPProblem implements SimpleProblemForm
 			if(dadosEntrada.ResultadoExecucaoArvore.equals("7/5/2015")) //Correto! Individuo válido!
 			{	
 				fitness = totalTime ;
-				ind.printIndividualForHumans(state, threadnum);
+				//ind.printIndividualForHumans(state, threadnum);
 			}
 			
 			// the fitness better be KozaFitness!

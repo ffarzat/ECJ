@@ -1,45 +1,4 @@
 parent.0 = ../../gp/koza/koza.params
-parent.1 = ../../gp/ge/ge.params
-
-#Basic parameters that we redefine
-eval.problem = ec.gp.ge.GEProblem
-pop.subpop.0.species = ec.gp.ge.GESpecies
-pop.subpop.0.species.parser = ec.gp.ge.GrammarParser
-pop.subpop.0.species.gp-species = ec.gp.GPSpecies
-pop.subpop.0.species.fitness = ec.gp.koza.KozaFitness
-pop.subpop.0.species.ind = ec.gp.ge.GEIndividual
-pop.subpop.0.species.min-gene = -128
-pop.subpop.0.species.max-gene = 127
-pop.subpop.0.species.mutation-prob = 0.01
-pop.subpop.0.species.crossover-type = one
-pop.subpop.0.species.genome-size = geometric
-pop.subpop.0.species.geometric-prob = 0.85
-pop.subpop.0.species.min-initial-size = 5
-
-# The pipeline
-pop.subpop.0.species.pipe = ec.breed.MultiBreedingPipeline
-pop.subpop.0.species.pipe.num-sources = 3
-pop.subpop.0.species.pipe.source.0 = ec.vector.breed.ListCrossoverPipeline
-pop.subpop.0.species.pipe.source.0.source.0 = ec.gp.ge.breed.GETruncationPipeline
-pop.subpop.0.species.pipe.source.0.source.0.source.0 = ec.select.TournamentSelection
-pop.subpop.0.species.pipe.source.0.source.1 = same
-pop.subpop.0.species.pipe.source.0.prob = 0.9
-pop.subpop.0.species.pipe.source.1 = ec.vector.breed.GeneDuplicationPipeline
-pop.subpop.0.species.pipe.source.1.source.0 = ec.gp.ge.breed.GETruncationPipeline
-pop.subpop.0.species.pipe.source.1.source.0.source.0 = ec.select.TournamentSelection
-pop.subpop.0.species.pipe.source.1.prob = 0.05
-pop.subpop.0.species.pipe.source.2 = ec.vector.breed.VectorMutationPipeline
-pop.subpop.0.species.pipe.source.2.source.0 = ec.select.TournamentSelection
-pop.subpop.0.species.pipe.source.2.prob = 0.05
-select.tournament.size = 7
-
-# GP hacks
-pop.subpop.0.species.gp-species.fitness = ec.gp.koza.KozaFitness
-pop.subpop.0.species.gp-species.ind = ec.gp.GPIndividual
-pop.subpop.0.species.gp-species.pipe = ec.breed.ReproductionPipeline
-pop.subpop.0.species.gp-species.pipe.num-sources = 1
-pop.subpop.0.species.gp-species.pipe.source.0 = ec.select.TournamentSelection
-
 
 #defino os tipos 
 gp.type.a.size = 3
@@ -47,31 +6,65 @@ gp.type.a.0.name = inteiro
 gp.type.a.1.name = string
 gp.type.a.2.name = nil
 
-
 #Defino a arvore de execucao
 gp.tc.size = 1
 gp.tc.0 = ec.gp.GPTreeConstraints
 gp.tc.0.name = tc0
 gp.tc.0.fset = f0
-gp.tc.0.returns = nil
+gp.tc.0.returns = string
 
 # Problema
-eval.problem.problem = ec.app.scriptDatajs.Problem
-eval.problem.problem.data = ec.app.scriptDatajs.scriptData
-eval.problem.problem.scriptOrigem = src/ec/app/scriptDatajs/scriptData.js
-eval.problem.problem.scriptTestes = src/ec/app/scriptDatajs/scriptDataTest.js
+eval.problem = ec.app.scriptDatajs.Problem
+eval.problem.data = ec.app.scriptDatajs.scriptData
+eval.problem.scriptOrigem = src/ec/app/scriptDatajs/scriptData.js
+eval.problem.scriptTestes = src/ec/app/scriptDatajs/scriptDataTest.js
 
-eval.problem.problem.Ano = 2015
-eval.problem.problem.Dia = 02
-eval.problem.problem.Mes = 05
-eval.problem.problem.DiasParaSomar = 5
+eval.problem.Ano = 2015
+eval.problem.Dia = 02
+eval.problem.Mes = 05
+eval.problem.DiasParaSomar = 5
 
-eval.problem.problem.Texto = O resultado é...
+eval.problem.Texto = O resultado é...
 
 
 #Gramatica
 ge.species.file.0 = scriptDatajs.grammar
 
+#Crio os ncs
+gp.nc.1 = ec.gp.GPNodeConstraints
+gp.nc.1.name = ncAvancaDias_4
+gp.nc.1.returns = string
+gp.nc.1.size = 4
+gp.nc.1.child.0 = inteiro
+gp.nc.1.child.1 = inteiro
+gp.nc.1.child.2 = inteiro
+gp.nc.1.child.3 = inteiro
+
+gp.nc.2 = ec.gp.GPNodeConstraints
+gp.nc.2.name = ncDeterminarQuantidadeDeDias_2
+gp.nc.2.returns = inteiro
+gp.nc.2.size = 2
+gp.nc.2.child.0 = inteiro
+gp.nc.2.child.1 = inteiro
+
+
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = ncescreverNaTela_1
+gp.nc.3.returns = nil
+gp.nc.3.size = 1
+gp.nc.3.child.0 = string
+
+gp.nc.4 = ec.gp.GPNodeConstraints
+gp.nc.4.name = ncVariaveis
+gp.nc.4.returns = inteiro
+gp.nc.4.size = 0
+#gp.nc.4.child.0 = string
+
+gp.nc.5 = ec.gp.GPNodeConstraints
+gp.nc.5.name = ncVariaveis2
+gp.nc.5.returns = string
+gp.nc.5.size = 0
+#gp.nc.4.child.0 = string
 
 
 #Defino o Function Set
@@ -80,18 +73,18 @@ gp.fs.0 = ec.gp.GPFunctionSet
 gp.fs.0.size = 8
 
 gp.fs.0.func.0 = ec.app.scriptDatajs.AvancaDias_4
-gp.fs.0.func.0.nc = nc4
+gp.fs.0.func.0.nc = ncAvancaDias_4
 gp.fs.0.func.1 = ec.app.scriptDatajs.DeterminarQuantidadeDeDias_2
-gp.fs.0.func.1.nc = nc2
+gp.fs.0.func.1.nc = ncDeterminarQuantidadeDeDias_2
 gp.fs.0.func.2 = ec.app.scriptDatajs.escreverNaTela_1
-gp.fs.0.func.2.nc = nc1
+gp.fs.0.func.2.nc = ncescreverNaTela_1
 gp.fs.0.func.3 = ec.app.scriptDatajs.lnDias
-gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.3.nc = ncVariaveis
 gp.fs.0.func.4 = ec.app.scriptDatajs.ldDia
-gp.fs.0.func.4.nc = nc0
+gp.fs.0.func.4.nc = ncVariaveis
 gp.fs.0.func.5 = ec.app.scriptDatajs.ldMes
-gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.5.nc = ncVariaveis
 gp.fs.0.func.6 = ec.app.scriptDatajs.ldAno
-gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.6.nc = ncVariaveis
 gp.fs.0.func.7 = ec.app.scriptDatajs.texto
-gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.7.nc = ncVariaveis2
