@@ -29,7 +29,7 @@ public class ldMes extends GPNode {
     {
 		//TODO: parametros...
 		
-		scriptData dadosEntrada = (scriptData)(input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(input);
 		dadosEntrada.Mes= ((ec.app.scriptDatajs.Problem)problem).Mes;
 		
 		//executarFuncao();

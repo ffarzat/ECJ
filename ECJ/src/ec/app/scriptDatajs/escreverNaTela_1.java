@@ -41,7 +41,7 @@ public class escreverNaTela_1 extends GPNode {
     {
 		//TODO: parametros...
 		
-		scriptData dadosEntrada = (scriptData)(input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(input);
 		Valor = dadosEntrada.Texto ;
 		dadosEntrada.ResultadoExecucaoArvore = executarFuncao(problem);
     }

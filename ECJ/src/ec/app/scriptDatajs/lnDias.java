@@ -29,7 +29,7 @@ public class lnDias extends GPNode {
     {
 		//TODO: parametros...
 		
-		scriptData dadosEntrada = (scriptData)(input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(input);
 		dadosEntrada.DiasParaSomar= ((ec.app.scriptDatajs.Problem)problem).DiasParaSomar;
 		
 		

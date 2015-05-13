@@ -15,7 +15,7 @@ gp.tc.0.returns = string
 
 # Problema
 eval.problem = ec.app.scriptDatajs.Problem
-eval.problem.data = ec.app.scriptDatajs.scriptData
+eval.problem.data = ec.app.scriptDatajs.scriptDataMesmo
 eval.problem.scriptOrigem = src/ec/app/scriptDatajs/scriptData.js
 eval.problem.scriptTestes = src/ec/app/scriptDatajs/scriptDataTest.js
 

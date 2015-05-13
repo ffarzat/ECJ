@@ -74,7 +74,7 @@ public class Problem extends GPProblem implements SimpleProblemForm
 	public void evaluate(EvolutionState state, Individual ind, int subpopulation, int threadnum) 
 	{
 		
-		scriptData dadosEntrada = (scriptData)(this.input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(this.input);
 		
 		
 		dadosEntrada.DiasParaSomar = this.DiasParaSomar;

@@ -29,7 +29,7 @@ public class ldDia extends GPNode {
     {
 		//TODO: parametros...
 		
-		scriptData dadosEntrada = (scriptData)(input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(input);
 		dadosEntrada.Dia= ((ec.app.scriptDatajs.Problem)problem).Dia;
 		
 		

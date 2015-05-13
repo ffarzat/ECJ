@@ -39,13 +39,13 @@ public class DeterminarQuantidadeDeDias_2 extends GPNode {
     {
 		//TODO: parametros...
 		
-		scriptData dadosEntrada = (scriptData)(input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(input);
 				
 		dadosEntrada.ResultadoExecucaoArvore = executarFuncao(problem, dadosEntrada);
     }
 
 
-    public String executarFuncao(Problem problem, scriptData dadosEntrada)  {
+    public String executarFuncao(Problem problem, scriptDataMesmo dadosEntrada)  {
     	
     	ScriptEngineManager engineManager = new ScriptEngineManager();
 		@SuppressWarnings("unused")

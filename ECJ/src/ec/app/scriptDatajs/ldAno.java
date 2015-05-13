@@ -32,7 +32,7 @@ public class ldAno extends GPNode {
     {
 		//TODO: parametros...
 		
-		scriptData dadosEntrada = (scriptData)(input);
+		scriptDataMesmo dadosEntrada = (scriptDataMesmo)(input);
 		dadosEntrada.Ano = ((ec.app.scriptDatajs.Problem)problem).Ano;
 		
 		//executarFuncao();
