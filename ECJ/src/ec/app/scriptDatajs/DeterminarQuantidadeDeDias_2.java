@@ -21,7 +21,6 @@ import org.mozilla.javascript.ScriptableObject;
 
 
 import ec.*;
-import ec.app.momentjs.DAYSTOYEARS_1;
 import ec.gp.*;
 import ec.util.*;
 import ec.EvolutionState;
